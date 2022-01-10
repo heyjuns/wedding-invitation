@@ -35,8 +35,9 @@ export default {
   googleFonts: {
     families: {
       Poppins: true,
-      'Cormorant+Upright': [300, 400, 500, 600, 700]
-    }
+      'Cormorant+Upright': [300, 400, 500, 600, 700],
+      'EB+Garamond': [300, 400, 500, 600, 700]
+    },
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

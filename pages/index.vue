@@ -1,12 +1,17 @@
 <template>
-  <Welcome />
+  <div>
+    <Welcome />
+    <invitation />
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import Invitation from '~/components/Invitation.vue'
 
 export default Vue.extend({
-  name: 'IndexPage',
+  name: 'PageIndex',
+  components: { Invitation },
 })
 </script>
 <style>
