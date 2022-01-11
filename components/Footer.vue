@@ -1,6 +1,8 @@
 <template>
   <div class="text-center bottom-0 mt-8">
-    <p class="text-white text-sm">exclusive design by david novrian</p>
+    <p class="text-gray-200 text-xs">
+      exclusive design by <span class="font-semibold text-white">david novrian</span>
+    </p>
   </div>
 </template>
 
