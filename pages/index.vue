@@ -2,7 +2,11 @@
   <div>
     <Welcome />
     <div
-      class="pt-20 pb-4 bg-[url('assets/dark-brown-paper-texture-background.png')]"
+      class="
+        pt-20
+        pb-4
+        bg-[url('assets/dark-brown-paper-texture-background-resize.png')]
+      "
     >
       <Invitation />
       <Location />
