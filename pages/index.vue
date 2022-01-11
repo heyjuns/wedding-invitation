@@ -1,9 +1,13 @@
 <template>
   <div>
     <Welcome />
-    <div class="py-20 bg-[url('assets/dark-brown-paper-texture-background.png')]">
-      <invitation />
-      <location />
+    <div
+      class="pt-20 pb-4 bg-[url('assets/dark-brown-paper-texture-background.png')]"
+    >
+      <Invitation />
+      <Location />
+      <Pray />
+      <Footer />
     </div>
   </div>
 </template>
@@ -12,10 +16,12 @@
 import Vue from 'vue'
 import Invitation from '~/components/Invitation.vue'
 import Location from '~/components/Location.vue'
+import Pray from '~/components/Pray.vue'
+import Footer from '~/components/Footer.vue'
 
 export default Vue.extend({
   name: 'PageIndex',
-  components: { Invitation, Location },
+  components: { Invitation, Location, Pray, Footer },
 })
 </script>
 <style>
