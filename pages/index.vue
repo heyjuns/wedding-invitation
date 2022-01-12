@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Welcome />
+    <Modal v-show="isModalVisible" @close="closeModal"> </Modal>
     <div
       class="
         pt-20
@@ -22,14 +22,30 @@ import Invitation from '~/components/Invitation.vue'
 import Location from '~/components/Location.vue'
 import Pray from '~/components/Pray.vue'
 import Footer from '~/components/Footer.vue'
+import Modal from '~/components/Modal.vue'
 
 export default Vue.extend({
   name: 'PageIndex',
-  components: { Invitation, Location, Pray, Footer },
+  components: { Invitation, Location, Pray, Footer, Modal },
+
+  data() {
+    return {
+      isModalVisible: true,
+    }
+  },
+  methods: {
+    showModal() {
+      this.isModalVisible = true
+    },
+    closeModal() {
+      this.isModalVisible = false
+    },
+  },
 })
 </script>
 <style>
 * {
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 </style>
