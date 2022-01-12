@@ -1,6 +1,17 @@
 <template>
   <div class="flex">
-    <div class="m-auto w-11/12 md:w-10/12 bg-[#F5EFEC] rounded-t-2xl">
+    <div
+      class="
+        bg-[url('~assets/single-flower.svg'),url('~assets/single-flower-right.svg')]
+        bg-no-repeat
+        bg-position-invitation-side-by-side
+        m-auto
+        w-11/12
+        md:w-10/12
+        bg-[#F5EFEC]
+        rounded-t-2xl
+      "
+    >
       <div class="">
         <div
           id="header-accent"
@@ -123,7 +134,11 @@
               noopener”
             >
               <p
-                class="font-semibold text-base text-[#BF7E62] hover:text-[#F5EFEC]"
+                class="
+                  font-semibold
+                  text-base text-[#BF7E62]
+                  hover:text-[#F5EFEC]
+                "
               >
                 Simpan Acara ke kalender
               </p>
@@ -382,10 +397,14 @@ export default Vue.extend({
 })
 </script>
 <style>
-.hand-lettering {
-  font-family: 'Cormorant Upright', sans-serif;
-}
-.second-accent {
-  font-family: 'Playfair Display', serif;
-}
+  .bg-position-invitation-side-by-side {
+    background-position: 0 25%, 100% 75%;
+    background-size: auto;
+  }
+  @media screen and (min-width: 768px) {
+    .bg-position-invitation-side-by-side {
+      background-position: 0 65%, 100% 65%;
+      background-size: 250px;
+    }
+  }
 </style>

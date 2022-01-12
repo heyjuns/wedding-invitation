@@ -1,6 +1,17 @@
 <template>
   <div class="flex">
-    <div class="m-auto text-white w-11/12 md:w-10/12 bg-[#BF7E62]">
+    <div
+      class="
+        m-auto
+        bg-[url('~assets/acara-flower-left.svg'),url('~assets/acara-flower-right.svg')]
+        bg-no-repeat
+        bg-position-location-side-by-side
+        text-white
+        w-11/12
+        md:w-10/12
+        bg-[#BF7E62]
+      "
+    >
       <section>
         <div class="text-center text-4xl pt-10 hand-lettering">
           Informasi Acara
@@ -165,7 +176,14 @@ export default Vue.extend({
 </script>
 
 <style>
-.hand-lettering {
-  font-family: 'Cormorant Upright', sans-serif;
+.bg-position-location-side-by-side {
+  background-position: 0 10%, 100% 90%;
+  background-size: 250px;
+}
+@media screen and (min-width: 1024px) {
+  .bg-position-location-side-by-side {
+    background-position: 0 65%, 100% 65%;
+    background-size: auto;
+  }
 }
 </style>

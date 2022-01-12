@@ -1,6 +1,16 @@
 <template>
   <div class="flex">
-    <div class="m-auto w-11/12 md:w-10/12 bg-[#F5EFEC] rounded-b-2xl">
+    <div
+      class="
+        m-auto
+        w-11/12
+        md:w-10/12
+        bg-[#F5EFEC]
+        rounded-b-2xl
+        bg-[url('~assets/taneman-4.svg')]
+        bg-position-pray-side-by-side
+      "
+    >
       <div class="">
         <section id="pray-accent" class="m-auto mt-6 w-48">
           <svg
@@ -111,7 +121,7 @@
             xl:w-6/12
           "
         >
-          <h1 class="my-8 text-4xl hand-lettering ">
+          <h1 class="my-8 text-4xl hand-lettering">
             Kirimkan Doa & Ucapan Untuk Kedua Mempelai
           </h1>
 
@@ -322,7 +332,10 @@ export default Vue.extend({
 </script>
 
 <style>
-.hand-lettering {
-  font-family: 'Cormorant Upright', sans-serif;
+.bg-position-pray-side-by-side {
+  background-position: -10% -10%;
+  background-size: 250px;
+  object-fit: cover;
 }
+
 </style>
