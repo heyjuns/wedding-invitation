@@ -1,23 +1,14 @@
 <template>
   <div class="flex">
     <div class="m-auto text-white w-11/12 md:w-10/12 bg-[#BF7E62]">
-      <div
-        class="
-          text-center text-5xl
-          md:text-6xl
-          lg:text-7xl
-          xl:text-8xl
-          p-8
-          hand-lettering
-        "
-      >
+      <div class="text-center text-4xl pt-10 hand-lettering">
         Informasi Acara
       </div>
       <div
         class="
           grid
           m-auto
-          gap-10
+          gap-1
           grid-cols-1
           md:grid-cols-1
           lg:grid-cols-2 lg:flex lg:items-stretch lg:gap-28
@@ -25,11 +16,10 @@
           justify-center
         "
       >
-        <section id="akad-nikah" class="text-center p-4 lg:p-8 lg:w-4/12">
+        <section id="akad-nikah" class="">
           <div class="inline-block m-auto">
             <svg
-              width="166"
-              height="166"
+              class="w-40 m-4"
               viewBox="0 0 166 166"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -42,22 +32,18 @@
             </svg>
           </div>
           <div>
-            <h1 class="text-6xl pt-2 pb-6 md:pt-6 md:pb-10 hand-lettering">
-              Akad Nikah
-            </h1>
-            <h2 class="text-xl md:text-2xl">
-              Lapangan Serba guna Masjid Jami Al-Amin, RW 03, Pondok Permai,
-              Kutabaru, Tangerang.
+            <h1 class="title-acara">Akad Nikah</h1>
+            <h2 class="lokasi-acara">
+              Masjid Jami Al-Amin, RW 03, Pondok Permai, Kutabaru, Tangerang.
             </h2>
-            <h3 class="text-xl md:text-2xl pt-4">Sabtu, 5 Maret 2022</h3>
-            <h4 class="text-xl md:text-2xl">09.00 - 10.00</h4>
+            <h3 class="waktu-acara">Sabtu, 5 Maret 2022</h3>
+            <h4 class="waktu-acara">09.00 - 10.00</h4>
           </div>
         </section>
-        <section id="resepsi-section" class="text-center p-4 lg:p-8 lg:w-4/12">
+        <section id="resepsi-section" class="">
           <div class="inline-block m-auto">
             <svg
-              width="166"
-              height="166"
+              class="w-40 m-4"
               viewBox="0 0 166 166"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -86,14 +72,12 @@
             </svg>
           </div>
           <div>
-            <h1 class="text-6xl pt-2 pb-6 md:pt-6 md:pb-10 hand-lettering">
-              Resepsi
-            </h1>
-            <h2 class="text-xl md:text-2xl">
+            <h1 class="title-acara">Resepsi</h1>
+            <h2 class="lokasi-acara">
               Masjid Jami Al-Amin, RW 03, Pondok Permai, Kutabaru, Tangerang.
             </h2>
-            <h3 class="text-xl md:text-2xl pt-4">Sabtu, 5 Maret 2022</h3>
-            <h4 class="text-xl md:text-2xl">11.00 - 16.00</h4>
+            <h3 class="waktu-acara">Sabtu, 5 Maret 2022</h3>
+            <h4 class="waktu-acara">11.00 - 16.00</h4>
           </div>
         </section>
       </div>
@@ -103,7 +87,8 @@
           flex
           items-center
           mx-auto
-          my-8
+          mt-2
+          mb-8
           justify-center
           shadow-2xl
           bg-white
@@ -114,12 +99,40 @@
         "
       >
         <iframe
-          class="w-full aspect-video p-4 md:p-6"
+          class="w-full aspect-video p-3"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.7063416152381!2d106.5725372117676!3d-6.154138155062919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff852e4779bd%3A0x3065bd668cdd8fa3!2sJl.%20Bawal%20IV%20Blok%20B4%20No.20%2C%20Kuta%20Baru%2C%20Kec.%20Ps.%20Kemis%2C%20Kabupaten%20Tangerang%2C%20Banten%2015560!5e0!3m2!1sid!2sid!4v1641831456275!5m2!1sid!2sid"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
         ></iframe>
+      </div>
+
+      <div class="flex mb-8">
+        <button
+          class="
+            mx-auto
+            relative
+            w-fit
+            h-fit
+            px-5
+            py-2
+            text-lg
+            border
+            shadow-md
+            rounded-full
+            border-[#F5EFEC]
+            hover:bg-[#F5EFEC]
+          "
+        >
+          <a
+            href="https://goo.gl/maps/F9B1CqYezf5ZpATn6"
+            target="”_blank”"
+            rel="”noreferrer"
+            noopener”
+          >
+            <p class="font-medium text-lg text-[#F5EFEC] hover:text-[#BF7E62]">Lihat Lokasi</p>
+          </a>
+        </button>
       </div>
     </div>
   </div>

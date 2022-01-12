@@ -2,10 +2,7 @@
   <div class="flex">
     <div class="m-auto w-11/12 md:w-10/12 bg-[#F5EFEC] rounded-b-2xl">
       <div class="">
-        <section
-          id="pray-accent"
-          class="w-8/12 m-auto my-6 md:w-6/12 lg:w-4/12 md:my-8"
-        >
+        <section id="pray-accent" class="m-auto mt-6 w-48">
           <svg
             viewBox="0 0 322 47"
             fill="none"
@@ -55,8 +52,8 @@
         <section
           class="mx-auto text-center mb-12 w-9/12 md:w-9/12 lg:w-8/12 xl:w-6/12"
         >
-          <p class="text-2xl font-medium py-3">Doa Kami</p>
-          <q class="flex-grow text-lg text-[#3D3937] text-center">
+          <p class="text-2xl font-medium py-3 second-accent">Doa Kami</p>
+          <q class="flex-grow text-sm text-[#3D3937] text-center">
             Dan di antara tanda-tanda kekuasaan-Nya diciptakan-Nya untukmu
             pasangan hidup dari jenismu sendiri supaya kamu dapat ketenangan
             hati dan dijadikannya kasih sayang di antara kamu. Sesungguhnya yang
@@ -66,39 +63,37 @@
           <p class="pt-2"><cite>- Q.S. Ar-Rum: 21 -</cite></p>
         </section>
 
+        <div class="text-center text-4xl mt-10 mb-4 hand-lettering">
+          Protokol Kesehatan
+        </div>
         <section
           id="prokes-container"
-          class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-5"
+          class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
         >
-          <div class="bg-white h-36 flex items-center justify-center p-4">
-            <img class="mr-4" src="~assets/Frameprokes-2.png" alt="" />
-            <p class="text-sm font-medium">Menggunakan <br />Masker</p>
+          <div class="tipe-prokes">
+            <img class="icon-prokes" src="~assets/Frameprokes-2.png" alt="" />
+            <p class="text-prokes">Menggunakan <br />Masker</p>
           </div>
 
-          <div class="bg-white h-36 flex items-center justify-center p-4">
-            <img class="mr-4" src="~assets/Frameprokes-1.png" alt="" />
-            <p class="text-sm font-medium">Hindari <br />Kerumunan</p>
-          </div>
-
-          <div class="bg-white h-36 flex items-center justify-center p-4">
-            <img class="mr-4" src="~assets/Frameprokes-3.png" alt="" />
-            <p class="text-sm font-medium">
+          <div class="tipe-prokes">
+            <img class="icon-prokes" src="~assets/Frameprokes-3.png" alt="" />
+            <p class="text-prokes">
               Mencuci <br />
               Tangan
             </p>
           </div>
 
-          <div class="bg-white h-36 flex items-center justify-center p-4">
-            <img class="mr-4" src="~assets/Frameprokes.png" alt="" />
-            <p class="text-sm font-medium">
+          <div class="tipe-prokes">
+            <img class="icon-prokes" src="~assets/Frameprokes.png" alt="" />
+            <p class="text-prokes">
               Menggunakan <br />
               Hand Sanitizer
             </p>
           </div>
 
-          <div class="bg-white h-36 flex items-center justify-center p-4">
-            <img class="mr-4" src="~assets/Frameprokes-4.png" alt="" />
-            <p class="text-sm font-medium">
+          <div class="tipe-prokes">
+            <img class="icon-prokes" src="~assets/Frameprokes-4.png" alt="" />
+            <p class="text-prokes">
               Menjaga <br />
               Jarak
             </p>
@@ -290,28 +285,28 @@
                 </div>
               </div>
             </div>
-
-            <div
-              class="
-                flex
-                items-center
-                justify-center
-                mt-4
-                mb-8
-                shadow-2xl
-                bg-white
-                rounded-xl
-              "
-            >
-              <iframe
-                class="w-full aspect-video p-4 md:p-6"
-                src="https://www.youtube.com/embed/Bh7WGBB-y3c"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              mx-auto
+              mt-2
+              mb-8
+              justify-center
+              shadow-2xl
+              bg-white
+              rounded-xl
+            "
+          >
+            <iframe
+              class="w-full aspect-video p-3"
+              src="https://www.youtube.com/embed/Bh7WGBB-y3c"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </section>
       </div>

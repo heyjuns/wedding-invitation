@@ -19,14 +19,47 @@
     p-4;
   }
 
+  .image-mempelai {
+    @apply w-52 rounded-full aspect-square block m-auto mt-3 mb-14;
+  }
+  #akad-nikah,
+  #resepsi-section {
+    @apply text-center pb-4 px-8 lg:p-8 lg:w-4/12;
+  }
+  .title-acara {
+    @apply text-3xl hand-lettering;
+  }
+  .lokasi-acara {
+    @apply text-sm tracking-wider mt-3 mb-2;
+  }
+  .waktu-acara {
+    @apply text-sm tracking-wider font-semibold;
+  }
   .nama-mempelai {
-    @apply text-[#884936] text-4xl sm:text-6xl md:text-5xl mb-4;
+    @apply text-[#884936] text-2xl;
   }
   .urutan-anak-mempelai {
-    @apply text-4xl md:text-3xl mt-4;
+    @apply text-xl mt-[10px] mb-2;
   }
 
   .orang-tua-mempelai {
-    @apply text-3xl md:text-2xl;
+    @apply text-base;
+  }
+  .hand-lettering {
+    font-family: "Cormorant Upright", sans-serif;
+  }
+
+  .second-accent {
+    font-family: "Playfair Display", serif;
+  }
+
+  .tipe-prokes {
+    @apply bg-white lg:h-32 flex items-center justify-center p-4;
+  }
+  .icon-prokes {
+    @apply mr-4 w-12 lg:w-20;
+  }
+  .text-prokes {
+    @apply text-xs font-medium;
   }
 }
