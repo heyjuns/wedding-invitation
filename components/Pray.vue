@@ -111,7 +111,7 @@
             xl:w-6/12
           "
         >
-          <h1 class="my-8 text-3xl md:text-7xl hand-lettering">
+          <h1 class="my-8 text-4xl hand-lettering ">
             Kirimkan Doa & Ucapan Untuk Kedua Mempelai
           </h1>
 

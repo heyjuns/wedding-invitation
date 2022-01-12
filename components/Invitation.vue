@@ -98,20 +98,42 @@
           </div>
         </section>
 
-        <div
-          class="
-            border border-[#989898]
-            w-7/12
-            md:w-7/12
-            lg:w-6/12
-            xl:w-5/12
-            flex
-            mx-auto
-          "
-        ></div>
+        <div class="flex mb-8">
+          <button
+            class="
+              mx-auto
+              relative
+              w-fit
+              h-fit
+              px-5
+              py-2
+              text-lg
+              border
+              shadow-md
+              rounded-full
+              border-[#BF7E62]
+              hover:bg-[#BF7E62]
+            "
+          >
+            <a
+              href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220305T020000Z%2F20220305T090000Z&details=&location=Jl.%20Bawal%20IV%20No.20%2C%20Kuta%20Baru%2C%20Kec.%20Ps.%20Kemis%2C%20Kabupaten%20Tangerang%2C%20Banten%2015560%2C%20Indonesia&text=The%20Wedding%20of%20Prien%20%26%20Juanda"
+              title="Simpan Acara Pernikahan"
+              target="”_blank”"
+              rel="”noreferrer"
+              noopener”
+            >
+              <p
+                class="font-semibold text-base text-[#BF7E62] hover:text-[#F5EFEC]"
+              >
+                Simpan Acara ke kalender
+              </p>
+            </a>
+          </button>
+        </div>
         <div class="flex mx-auto my-5 w-9/12 md:w-9/12 lg:w-8/12 xl:w-8/12">
           <p class="flex-grow text-[#3D3937] text-sm md:text-lg text-center">
             Assalamu`alaikum Warahmatullaahi Wabarakaatuh <br />
+            <br />
             Maha Suci Allah yang telah menciptakan makhluk-Nya
             berpasang-pasangan.
             <br />
