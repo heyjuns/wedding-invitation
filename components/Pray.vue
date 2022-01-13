@@ -71,41 +71,50 @@
           <p class="pt-2"><cite>- Q.S. Ar-Rum: 21 -</cite></p>
         </section>
 
-        <div class="text-center text-4xl mt-10 mb-4 hand-lettering">
-          Protokol Kesehatan
-        </div>
-        <section
-          id="prokes-container"
-          class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
-        >
-          <div class="tipe-prokes">
-            <img class="icon-prokes" src="~assets/Frameprokes-2.png" alt="" />
-            <p class="text-prokes">Menggunakan <br />Masker</p>
+        <section class="bg-white">
+          <div class="mx-auto pt-6 mb-4 w-9/12 md:w-9/12 lg:w-8/12 xl:w-6/12">
+            <div class="text-center text-4xl hand-lettering">
+              Protokol Kesehatan
+            </div>
+            <div class="text-sm text-center text-[#858483]">
+              Kami menghimbau para tamu undangan untuk tetap mematuhi protokol
+              kesehatan demi mencegah penyebaran virus Covid-19
+            </div>
           </div>
 
-          <div class="tipe-prokes">
-            <img class="icon-prokes" src="~assets/Frameprokes-3.png" alt="" />
-            <p class="text-prokes">
-              Mencuci <br />
-              Tangan
-            </p>
-          </div>
+          <section
+            id="prokes-container"
+            class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
+          >
+            <div class="tipe-prokes">
+              <img class="icon-prokes" src="~assets/Frameprokes-2.png" alt="" />
+              <p class="text-prokes">Menggunakan <br />Masker</p>
+            </div>
 
-          <div class="tipe-prokes">
-            <img class="icon-prokes" src="~assets/Frameprokes.png" alt="" />
-            <p class="text-prokes">
-              Menggunakan <br />
-              Hand Sanitizer
-            </p>
-          </div>
+            <div class="tipe-prokes">
+              <img class="icon-prokes" src="~assets/Frameprokes-3.png" alt="" />
+              <p class="text-prokes">
+                Mencuci <br />
+                Tangan
+              </p>
+            </div>
 
-          <div class="tipe-prokes">
-            <img class="icon-prokes" src="~assets/Frameprokes-4.png" alt="" />
-            <p class="text-prokes">
-              Menjaga <br />
-              Jarak
-            </p>
-          </div>
+            <div class="tipe-prokes">
+              <img class="icon-prokes" src="~assets/Frameprokes.png" alt="" />
+              <p class="text-prokes">
+                Menggunakan <br />
+                Hand Sanitizer
+              </p>
+            </div>
+
+            <div class="tipe-prokes">
+              <img class="icon-prokes" src="~assets/Frameprokes-4.png" alt="" />
+              <p class="text-prokes">
+                Menjaga <br />
+                Jarak
+              </p>
+            </div>
+          </section>
         </section>
 
         <section
