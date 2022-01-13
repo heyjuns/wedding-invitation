@@ -7,7 +7,6 @@
         bg-no-repeat
         bg-position-location-side-by-side
         text-white
-        w-11/12
         md:w-10/12
         bg-[#BF7E62]
       "

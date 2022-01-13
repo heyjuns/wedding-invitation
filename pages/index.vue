@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="scroll-smooth">
     <Modal v-show="isModalVisible" @close="closeModal"> </Modal>
     <div
       class="
-        pt-20
-        pb-4
-        bg-[url('assets/dark-brown-paper-texture-background-resize.png')]
+        p-4
+        lg:pt-10 pb-4 py-2
+        bg-[url('assets/dark-brown-paper-texture-background.webp')]
       "
     >
       <Invitation />

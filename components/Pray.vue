@@ -3,12 +3,10 @@
     <div
       class="
         m-auto
-        w-11/12
         md:w-10/12
         bg-[#F5EFEC]
         rounded-b-2xl
-        bg-[url('~assets/taneman-4.svg')]
-        bg-position-pray-side-by-side
+        bg-[url('~assets/taneman-4.svg')] bg-position-pray-side-by-side
       "
     >
       <div class="">
@@ -313,6 +311,7 @@
               class="w-full aspect-video p-3"
               src="https://www.youtube.com/embed/Bh7WGBB-y3c"
               title="YouTube video player"
+              loading="lazy"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -337,5 +336,4 @@ export default Vue.extend({
   background-size: 250px;
   object-fit: cover;
 }
-
 </style>

@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
   head: {
     title: 'limamaret',
     meta: [
@@ -29,7 +30,18 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxt/postcss8',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    [
+      'nuxt-compress',
+      {
+        gzip: {
+          threshold: 8192,
+        },
+        brotli: {
+          threshold: 8192,
+        },
+      },
+    ],
   ],
 
   googleFonts: {
@@ -68,6 +80,14 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
+    },
+  },
+
+  render: {
+    // Setting up cache for 'static' directory - a year in milliseconds
+    // https://web.dev/uses-long-cache-ttl
+    static: {
+      maxAge: 60 * 60 * 24 * 365 * 1000,
     },
   },
 }

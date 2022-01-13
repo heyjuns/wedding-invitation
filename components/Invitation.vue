@@ -6,7 +6,6 @@
         bg-no-repeat
         bg-position-invitation-side-by-side
         m-auto
-        w-11/12
         md:w-10/12
         bg-[#F5EFEC]
         rounded-t-2xl
@@ -356,7 +355,11 @@
                 />
               </svg>
             </div>
-            <img class="image-mempelai" src="~assets/wanita.jpg" alt="River" />
+            <img
+              class="image-mempelai aspect-square"
+              src="https://dummyimage.com/500x500"
+              alt="Pasangan Pria"
+            />
             <div class="text-center">
               <h1 class="nama-mempelai second-accent">Prien Novita Ayu C.</h1>
               <h2 class="urutan-anak-mempelai second-accent">
@@ -370,8 +373,8 @@
 
           <div class="bg-white rounded-2xl p-6 shadow-xl">
             <img
-              class="image-mempelai"
-              src="~assets/pria.jpg"
+              class="image-mempelai aspect-square"
+              src="https://dummyimage.com/500x500"
               alt="Pasangan Pria"
             />
             <div class="text-center">
@@ -397,14 +400,14 @@ export default Vue.extend({
 })
 </script>
 <style>
+.bg-position-invitation-side-by-side {
+  background-position: 0 25%, 100% 75%;
+  background-size: auto;
+}
+@media screen and (min-width: 768px) {
   .bg-position-invitation-side-by-side {
-    background-position: 0 25%, 100% 75%;
-    background-size: auto;
+    background-position: -5px 65%, calc(100% + 5px) 65%;
+    background-size: 250px;
   }
-  @media screen and (min-width: 768px) {
-    .bg-position-invitation-side-by-side {
-      background-position: 0 65%, 100% 65%;
-      background-size: 250px;
-    }
-  }
+}
 </style>
