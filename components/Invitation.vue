@@ -77,7 +77,7 @@
           id="countdown-time"
           class="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-5 md:mb-10"
         >
-          <div class="grid gap-4 grid-cols-4">
+          <div class="grid gap-1 lg:gap-4 grid-cols-4">
             <div class="countdown-time">
               <h1 class="countdown-remain">265</h1>
               <p class="countdown-title">Hari</p>
