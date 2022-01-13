@@ -73,37 +73,26 @@
           </div>
         </div>
 
-        <section id="countdown-time" class="my-5 md:my-8">
-          <div
-            class="
-              flex flex-col
-              m-auto
-              justify-center
-              items-center
-              flex-wrap
-              gap-4
-              w-full
-              my-10
-              sm:flex-row sm:justify-evenly
-              md:w-10/12
-              xl:w-8/12
-            "
-          >
-            <div class="countdown-time md:rounded-4xl xl:w-40 xl:h-40">
-              <h1 class="text-3xl xl:text-5xl">265</h1>
-              <p class="text-sm xl:text-xl">Hari</p>
+        <section
+          id="countdown-time"
+          class="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-5 md:mb-10"
+        >
+          <div class="grid gap-4 grid-cols-4">
+            <div class="countdown-time">
+              <h1 class="countdown-remain">265</h1>
+              <p class="countdown-title">Hari</p>
             </div>
-            <div class="countdown-time md:rounded-4xl xl:w-40 xl:h-40">
-              <h1 class="text-3xl xl:text-5xl">265</h1>
-              <p class="text-sm xl:text-xl">Jam</p>
+            <div class="countdown-time">
+              <h1 class="countdown-remain">265</h1>
+              <p class="countdown-title">Jam</p>
             </div>
-            <div class="countdown-time md:rounded-4xl xl:w-40 xl:h-40">
-              <h1 class="text-3xl xl:text-5xl">265</h1>
-              <p class="text-sm xl:text-xl">Menit</p>
+            <div class="countdown-time">
+              <h1 class="countdown-remain">265</h1>
+              <p class="countdown-title">Menit</p>
             </div>
-            <div class="countdown-time md:rounded-4xl xl:w-40 xl:h-40">
-              <h1 class="text-3xl xl:text-5xl">265</h1>
-              <p class="text-sm xl:text-xl">Detik</p>
+            <div class="countdown-time">
+              <h1 class="countdown-remain">265</h1>
+              <p class="countdown-title">Detik</p>
             </div>
           </div>
         </section>

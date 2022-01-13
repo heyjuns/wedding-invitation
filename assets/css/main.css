@@ -4,7 +4,14 @@
 
 @layer components {
   .countdown-time {
-    @apply flex flex-col w-32 h-32 rounded-xl  bg-white items-center justify-center shadow-md;
+    @apply flex flex-col aspect-square rounded-xl  bg-white items-center justify-center shadow-md;
+  }
+  .countdown-remain {
+    @apply text-base lg:text-4xl lg:pb-2 font-semibold second-accent;
+  }
+
+  .countdown-title {
+    @apply text-xs lg:text-xl second-accent;
   }
 
   .mempelai-pria,
@@ -62,6 +69,4 @@
   .text-prokes {
     @apply text-xs font-medium;
   }
-
-
 }
