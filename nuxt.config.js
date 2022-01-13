@@ -1,6 +1,5 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'static',
   head: {
     title: 'limamaret',
     meta: [
@@ -31,17 +30,6 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
-    [
-      'nuxt-compress',
-      {
-        gzip: {
-          threshold: 8192,
-        },
-        brotli: {
-          threshold: 8192,
-        },
-      },
-    ],
   ],
 
   googleFonts: {
