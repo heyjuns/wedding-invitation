@@ -60,8 +60,10 @@
         <section
           class="mx-auto text-center mb-12 w-9/12 md:w-9/12 lg:w-8/12 xl:w-6/12"
         >
-          <p class="text-2xl font-medium py-3 second-accent">Doa Kami</p>
-          <q class="flex-grow text-sm text-[#3D3937] text-center">
+          <p class="text-4xl font-medium py-3 second-accent text-accent-300">
+            Doa Kami
+          </p>
+          <q class="flex-grow text-sm text-center text-accent-300">
             Dan di antara tanda-tanda kekuasaan-Nya diciptakan-Nya untukmu
             pasangan hidup dari jenismu sendiri supaya kamu dapat ketenangan
             hati dan dijadikannya kasih sayang di antara kamu. Sesungguhnya yang
@@ -72,11 +74,19 @@
         </section>
 
         <section class="bg-white">
-          <div class="mx-auto pt-6 mb-4 w-9/12 md:w-9/12 lg:w-8/12 xl:w-6/12">
-            <div class="text-center text-4xl hand-lettering">
+          <div class="mx-auto pt-6 w-9/12 md:w-9/12 lg:w-8/12 xl:w-6/12">
+            <div
+              class="
+                text-4xl text-center
+                font-medium
+                py-3
+                second-accent
+                text-accent-300
+              "
+            >
               Protokol Kesehatan
             </div>
-            <div class="text-sm text-center text-[#858483]">
+            <div class="text-sm text-center text-accent-300">
               Kami menghimbau para tamu undangan untuk tetap mematuhi protokol
               kesehatan demi mencegah penyebaran virus Covid-19
             </div>
@@ -117,79 +127,7 @@
           </section>
         </section>
 
-        <section
-          class="
-            mx-auto
-            text-center
-            mb-12
-            w-10/12
-            md:w-9/12
-            lg:w-8/12
-            xl:w-6/12
-          "
-        >
-          <h1 class="my-8 text-4xl hand-lettering">
-            Kirimkan Doa & Ucapan Untuk Kedua Mempelai
-          </h1>
-
-          <form class="">
-            <div class="mb-4 bg-white shadow-md rounded">
-              <input
-                id="nama"
-                class="
-                  appearance-none
-                  border
-                  rounded
-                  w-full
-                  py-2
-                  px-3
-                  text-gray-700
-                  leading-tight
-                  focus:outline-none focus:shadow-outline
-                "
-                type="text"
-                placeholder="Nama"
-              />
-            </div>
-            <div class="mb-4 bg-white shadow-md rounded">
-              <textarea
-                id="pesan"
-                rows="4"
-                class="
-                  w-full
-                  appearance-none
-                  rounded
-                  py-2
-                  px-3
-                  text-gray-700
-                  leading-tight
-                  focus:outline-none focus:shadow-outline
-                "
-                type="text"
-                placeholder="Berikan Ucapan & Doa Untuk kedua mempelai"
-              />
-            </div>
-            <div class="flex items-center justify-between">
-              <button
-                id="kirim-pesan"
-                class="
-                  bg-[#884936]
-                  hover:bg-[#7a4231]
-                  text-white
-                  font-bold
-                  py-2
-                  px-4
-                  rounded
-                  shadow
-                  focus:outline-none focus:shadow-outline
-                "
-                type="button"
-              >
-                Kirim
-              </button>
-            </div>
-          </form>
-        </section>
+        <Comments />
 
         <section
           class="
@@ -203,7 +141,7 @@
           "
         >
           <div class="">
-            <h1 class="text-2xl md:text-6xl font-medium mb-6 hand-lettering">
+            <h1 class="my-8 text-4xl hand-lettering text-accent-300">
               Gallery
             </h1>
             <div class="block lg:flex lg:flex-wrap">
@@ -334,8 +272,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Comments from './Comments.vue'
 export default Vue.extend({
   name: 'PrayDetail',
+  components: { Comments },
 })
 </script>
 

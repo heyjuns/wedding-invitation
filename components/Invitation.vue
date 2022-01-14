@@ -2,9 +2,7 @@
   <div class="flex">
     <div
       class="
-        bg-[url('~assets/single-flower.svg'),url('~assets/single-flower-right.svg')]
-        bg-no-repeat
-        bg-position-invitation-side-by-side
+        bg-[url('~assets/taneman-4.svg')] bg-position-invitation-side-by-side
         m-auto
         md:w-10/12
         bg-[#F5EFEC]
@@ -53,7 +51,9 @@
         </div>
 
         <div class="text-center p-4">
-          <div class="text-xs sm:text-lg md:text-xl">Undangan Pernikahan</div>
+          <div class="text-xs sm:text-lg md:text-xl text-accent-200">
+            Undangan Pernikahan
+          </div>
           <div
             class="
               hand-lettering
@@ -64,20 +64,31 @@
               sm:text-7xl
               md:text-8xl
               xl:text-9xl
+              leading-9
+              sm:leading-none
+              text-accent-100
             "
           >
-            Prien & Juanda
+            Prien <span class="block hand-lettering md:inline">&</span> Juanda
           </div>
-          <div class="text-lg md:text-lg xl:text-2xl font-normal second-accent">
+          <div
+            class="
+              text-accent-200 text-lg
+              md:text-lg
+              xl:text-2xl
+              font-normal
+              second-accent
+            "
+          >
             5 Maret 2022
           </div>
         </div>
 
         <section
           id="countdown-time"
-          class="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-5 md:mb-10"
+          class="mx-auto block py-5 px-4 md:p-8 lg:w-[768px]"
         >
-          <div class="grid gap-1 lg:gap-4 grid-cols-4">
+          <div class="grid gap-1 md:gap-2 lg:gap-4 grid-cols-4">
             <div class="countdown-time">
               <h1 class="countdown-remain">265</h1>
               <p class="countdown-title">Hari</p>
@@ -97,21 +108,23 @@
           </div>
         </section>
 
-        <div class="flex mb-8">
+        <div class="mb-8">
           <button
             class="
+              block
               mx-auto
-              relative
-              w-fit
-              h-fit
-              px-5
-              py-2
-              text-lg
+              px-6
+              py-1
               border
               shadow-md
               rounded-full
               border-[#BF7E62]
-              hover:bg-[#BF7E62]
+              bg-[#BF7E62]
+              hover:bg-transparent
+              font-medium
+              hover:font-semibold
+              text-base text-white
+              hover:text-[#BF7E62]
             "
           >
             <a
@@ -121,29 +134,20 @@
               rel="”noreferrer"
               noopener”
             >
-              <p
-                class="
-                  font-semibold
-                  text-base text-[#BF7E62]
-                  hover:text-[#F5EFEC]
-                "
-              >
-                Simpan Acara ke kalender
-              </p>
+              <p class="">Simpan Acara</p>
             </a>
           </button>
         </div>
         <div class="flex mx-auto my-5 w-9/12 md:w-9/12 lg:w-8/12 xl:w-8/12">
-          <p class="flex-grow text-[#3D3937] text-sm md:text-lg text-center">
+          <p class="flex-grow text-accent-300 text-sm md:text-lg text-center">
             Assalamu`alaikum Warahmatullaahi Wabarakaatuh <br />
-            <br />
             Maha Suci Allah yang telah menciptakan makhluk-Nya
             berpasang-pasangan.
             <br />
             Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan kami.
           </p>
         </div>
-        <h1 class="text-center hand-lettering mt-10 mb-2 text-2xl md:text-3xl">
+        <h1 class="text-center text-accent-100 hand-lettering mt-10 mb-2 text-4xl">
           Kedua Mempelai
         </h1>
         <div
@@ -390,13 +394,8 @@ export default Vue.extend({
 </script>
 <style>
 .bg-position-invitation-side-by-side {
-  background-position: 0 25%, 100% 75%;
-  background-size: auto;
-}
-@media screen and (min-width: 768px) {
-  .bg-position-invitation-side-by-side {
-    background-position: -5px 65%, calc(100% + 5px) 65%;
-    background-size: 250px;
-  }
+  background-position: -10% -10%;
+  background-size: 250px;
+  object-fit: cover;
 }
 </style>

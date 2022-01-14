@@ -36,8 +36,8 @@ export default {
     families: {
       Poppins: true,
       'Cormorant+Upright': [300, 400, 500, 600, 700],
-      'EB+Garamond': [300, 400, 500, 600, 700],
-      'Playfair+Display': [300, 400, 500, 600, 700]
+      'STIX+Two+Text': [300, 400, 500, 600, 700],
+      'Playfair+Display': [300, 400, 500, 600, 700],
     },
   },
   // Modules: https://go.nuxtjs.dev/config-modules

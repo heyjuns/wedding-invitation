@@ -7,11 +7,11 @@
     @apply flex flex-col aspect-square rounded-xl  bg-white items-center justify-center shadow-md;
   }
   .countdown-remain {
-    @apply text-base lg:text-4xl lg:pb-2 font-semibold second-accent;
+    @apply text-accent-100 text-base md:text-2xl lg:text-4xl font-semibold second-accent;
   }
 
   .countdown-title {
-    @apply text-xs lg:text-xl second-accent;
+    @apply text-accent-100 text-xs md:text-base lg:text-xl second-accent;
   }
 
   .mempelai-pria,
@@ -46,18 +46,18 @@
     @apply text-[#884936] text-2xl;
   }
   .urutan-anak-mempelai {
-    @apply text-xl mt-[10px] mb-2;
+    @apply text-xl mt-[10px] mb-2 text-accent-400;
   }
 
   .orang-tua-mempelai {
-    @apply text-base;
+    @apply text-base text-accent-400;
   }
   .hand-lettering {
     font-family: "Cormorant Upright", sans-serif;
   }
 
   .second-accent {
-    font-family: "Playfair Display", serif;
+    font-family: "STIX Two Text", serif;
   }
 
   .tipe-prokes {
