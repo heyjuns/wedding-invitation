@@ -9,6 +9,7 @@
         <div class="mb-4 bg-white shadow-md rounded">
           <input
             id="nama"
+            v-model="body.name"
             class="
               appearance-none
               border
@@ -28,6 +29,7 @@
         <div class="mb-4 bg-white shadow-md rounded">
           <textarea
             id="pesan"
+            v-model="body.comment"
             rows="4"
             class="
               w-full
@@ -44,30 +46,29 @@
             placeholder="Berikan Ucapan & Doa Untuk kedua mempelai"
           />
         </div>
-        <div class="flex items-center justify-between">
-          <button
-            id="kirim-pesan"
-            class="
-              block
-              mx-auto
-              px-6
-              py-1
-              border
-              shadow-md
-              rounded-full
-              border-[#BF7E62]
-              bg-[#BF7E62]
-              hover:bg-transparent
-              font-medium
-              hover:font-semibold
-              text-base text-white
-              hover:text-[#BF7E62]
-            "
-            type="button"
-          >
-            Kirim Ucapan
-          </button>
-        </div>
+        <button
+          id="kirim-pesan"
+          class="
+            block
+            mx-auto
+            px-6
+            py-1
+            border
+            shadow-md
+            rounded-full
+            border-[#BF7E62]
+            bg-[#BF7E62]
+            hover:bg-transparent
+            font-medium
+            hover:font-semibold
+            text-base text-white
+            hover:text-[#BF7E62]
+          "
+          type="button"
+          @click="postComments"
+        >
+          Kirim Ucapan
+        </button>
       </form>
     </section>
 
@@ -84,6 +85,11 @@
           max-h-[650px]
         "
       >
+        <div v-if="comments.length === 0">
+          <h3 class="text-2xl text-[#884936] second-accent">
+            Belum ada komentar
+          </h3>
+        </div>
         <div
           v-for="(item, index) in comments"
           :key="index"
@@ -92,9 +98,9 @@
           class="block py-1 my-2 text-left"
         >
           <h3 class="text-2xl text-[#884936] second-accent">
-            {{ item.nama ? item.nama : 'Anonim' }}
-            <span class="text-xs text-accent-300 second-accent">
-              {{ item.date }}
+            {{ item.name ? item.name : 'Anonim' }}
+            <span class="text-xs text-accent-300 block md:inline second-accent">
+              {{ item.created_date }}
             </span>
           </h3>
           <p class="text-base text-accent-400 second-accent">
@@ -112,12 +118,15 @@ export default Vue.extend({
   name: 'CommentContainer',
   data() {
     return {
+      body: {
+        name: '',
+        comment: '',
+      },
       comments: [],
     }
   },
   async fetch() {
-    this.comments = await this.getComments()
-    console.log(this.comments)
+    await this.getComments()
   },
   methods: {
     async getComments() {
@@ -125,7 +134,24 @@ export default Vue.extend({
         'https://bejuju.herokuapp.com/api/master/comment'
       )
       const response = await request.data.data
-      return response
+      this.comments = response
+    },
+    async postComments() {
+      const { name, comment } = this.body
+      const body = { name, comment }
+      const request = await this.$axios.post(
+        'https://bejuju.herokuapp.com/api/master/comment',
+        body
+      )
+      const response = await request.data;
+
+      if (response.status === true) {
+        this.getComments()
+        this.body = {
+          name: '',
+          comment: '',
+        }
+      }
     },
   },
 })

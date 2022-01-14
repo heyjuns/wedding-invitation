@@ -1,8 +1,8 @@
 <template>
   <div class="text-center bottom-0 mt-8">
-    <p class="text-gray-200 text-xs">
+    <p class="text-gray-200 text-xs tracking-wider">
       exclusive design by
-      <span class="font-semibold text-white"
+      <span class="font-medium text-white"
         ><a
           href="https://www.instagram.com/davidnovrian7/"
           target="”_blank”"
@@ -11,7 +11,8 @@
         >
           david novrian</a
         ></span
-      >
+      >. Shoutout to
+      <span class="font-medium text-white">deny anggriawan</span>
     </p>
   </div>
 </template>
