@@ -1,60 +1,105 @@
 <template>
-  <div class="flex h-screen bg-[#f7f3f1]">
-    <div class="m-auto">
-      <div class="text-center">
-        <p class="text-md sm:text-lg md:text-xl text-gray-800">
-          Undangan Pernikahan
-        </p>
-        <p
-          class="
-            hand-lettering
-            text-5xl
-            my-3
-            sm:text-7xl sm:my-5
-            md:text-8xl md:my-7
-            xl:text-9xl
-            text-medium-carmine-0
-          "
-        >
-          Juanda & Prien
-        </p>
-        <p
-          class="
-            text-sm
-            mb-24
-            md:text-lg
-            xl:text-2xl
-            md:mb-32
-            font-medium
-            text-gray-800
-          "
-        >
-          05.03.2022
-        </p>
-
-        <button
-          class="
-            py-2
-            px-5
-            font-medium
-            rounded-lg
-            shadow-md
-            text-white
-            bg-medium-carmine-0
-            hover:bg-medium-carmine-200
-          "
-        >
-          Buka Undangan
-        </button>
+  <section
+    class="
+      flex
+      h-screen
+      m-auto
+      bg-[url('~assets/bg-home.webp')] bg-top bg-cover bg-no-repeat
+    "
+  >
+    <div
+      class="
+        shadow-xl
+        p-5
+        flex flex-col
+        items-center
+        justify-center
+        w-10/12
+        lg:w-8/12
+        xl:w-6/12
+        bg-[#F5EFEC]
+        m-auto
+        rounded-2xl
+        text-center
+      "
+    >
+      <img
+        src="https://dummyimage.com/164x164"
+        class="rounded-full m-4 lg:w-72"
+        alt=""
+      />
+      <p class="text-base lg:text-lg text-accent-200">Undangan Pernikahan</p>
+      <h1 class="my-2 hand-lettering text-5xl lg:text-7xl text-accent-100">
+        Prien
+        <span class="block md:inline hand-lettering leading-10">&</span> Juanda
+      </h1>
+      <p class="text-lg lg:text-xl font-medium text-accent-100">05.03.2022</p>
+      <button
+        class="
+          mx-auto
+          block
+          py-2
+          px-5
+          my-10
+          font-medium
+          shadow-md
+          text-white
+          rounded-full
+          text-base
+          lg:text-xl
+          bg-[#884936]
+          hover:bg-[#945b4a]
+        "
+        @click="close"
+      >
+        Buka Undangan
+      </button>
+      <div class="grid grid-cols-4 gap-2">
+        <div class="bg-white rounded-full p-2 md:p-4">
+          <img
+            class="block mx-auto w-16 aspect-square"
+            src="~/assets/Frameprokes.png"
+            alt=""
+          />
+        </div>
+        <div class="bg-white rounded-full p-2 md:p-4">
+          <img
+            class="block mx-auto w-16 aspect-square"
+            src="~/assets/Frameprokes-1.png"
+            alt=""
+          />
+        </div>
+        <div class="bg-white rounded-full p-2 md:p-4">
+          <img
+            class="block mx-auto w-16 aspect-square"
+            src="~/assets/Frameprokes-2.png"
+            alt=""
+          />
+        </div>
+        <div class="bg-white rounded-full p-2 md:p-4">
+          <img
+            class="block mx-auto w-16 aspect-square"
+            src="~/assets/Frameprokes-3.png"
+            alt=""
+          />
+        </div>
       </div>
+      <p class="text-gray-500 italic text-xs mt-2">
+        Tetap mentaati protokol kesehatan
+      </p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
   name: 'WelcomeJumbotron',
+  methods: {
+    close() {
+      this.$emit('close')
+    },
+  },
 })
 </script>
 <style>

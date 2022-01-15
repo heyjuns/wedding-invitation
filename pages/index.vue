@@ -1,5 +1,5 @@
 <template>
-  <div class="scroll-smooth">
+  <div>
     <Modal v-show="isModalVisible" @close="closeModal"> </Modal>
     <div
       class="
@@ -14,7 +14,6 @@
       <Location />
       <Pray />
       <Footer />
-      <Gift />
     </div>
   </div>
 </template>
