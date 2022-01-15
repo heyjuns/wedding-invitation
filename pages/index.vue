@@ -4,7 +4,9 @@
     <div
       class="
         p-4
-        lg:pt-10 pb-4 py-2
+        lg:pt-10
+        pb-4
+        py-2
         bg-[url('assets/dark-brown-paper-texture-background.webp')]
       "
     >
@@ -12,6 +14,7 @@
       <Location />
       <Pray />
       <Footer />
+      <Gift />
     </div>
   </div>
 </template>
@@ -27,7 +30,6 @@ import Modal from '~/components/Modal.vue'
 export default Vue.extend({
   name: 'PageIndex',
   components: { Invitation, Location, Pray, Footer, Modal },
-
   data() {
     return {
       isModalVisible: true,

@@ -128,143 +128,9 @@
         </section>
 
         <Comments />
+        <gallery />
 
-        <section
-          class="
-            mx-auto
-            text-center
-            mb-12
-            w-10/12
-            md:w-9/12
-            lg:w-8/12
-            xl:w-6/12
-          "
-        >
-          <div class="">
-            <h1 class="my-8 text-4xl hand-lettering text-accent-300">
-              Gallery
-            </h1>
-            <div class="block lg:flex lg:flex-wrap">
-              <div class="block lg:flex lg:flex-wrap lg:w-1/2">
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/500x300"
-                  />
-                </div>
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/501x301"
-                  />
-                </div>
-                <div class="p-2 w-full">
-                  <img
-                    alt="gallery"
-                    class="w-full h-full object-cover object-center block"
-                    src="https://dummyimage.com/600x360"
-                  />
-                </div>
-              </div>
-              <div class="block lg:flex lg:flex-wrap lg:w-1/2">
-                <div class="p-2 w-full">
-                  <img
-                    alt="gallery"
-                    class="w-full h-full object-cover object-center block"
-                    src="https://dummyimage.com/601x361"
-                  />
-                </div>
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/502x302"
-                  />
-                </div>
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/503x303"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="block lg:flex lg:flex-wrap">
-              <div class="block lg:flex lg:flex-wrap lg:w-1/2">
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/500x300"
-                  />
-                </div>
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/501x301"
-                  />
-                </div>
-                <div class="p-2 w-full">
-                  <img
-                    alt="gallery"
-                    class="w-full h-full object-cover object-center block"
-                    src="https://dummyimage.com/600x360"
-                  />
-                </div>
-              </div>
-              <div class="block lg:flex lg:flex-wrap lg:w-1/2">
-                <div class="p-2 w-full">
-                  <img
-                    alt="gallery"
-                    class="w-full h-full object-cover object-center block"
-                    src="https://dummyimage.com/601x361"
-                  />
-                </div>
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/502x302"
-                  />
-                </div>
-                <div class="block p-2 lg:w-1/2">
-                  <img
-                    alt="gallery"
-                    class="w-full object-cover h-full object-center block"
-                    src="https://dummyimage.com/503x303"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="
-              flex
-              items-center
-              mx-auto
-              mt-2
-              mb-8
-              justify-center
-              shadow-2xl
-              bg-white
-              rounded-xl
-            "
-          >
-            <iframe
-              class="w-full aspect-video p-3"
-              src="https://www.youtube.com/embed/Bh7WGBB-y3c"
-              title="YouTube video player"
-              loading="lazy"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </section>
+
       </div>
     </div>
   </div>
@@ -273,9 +139,10 @@
 <script lang="ts">
 import Vue from 'vue'
 import Comments from './Comments.vue'
+import Gallery from './Gallery.vue'
 export default Vue.extend({
   name: 'PrayDetail',
-  components: { Comments },
+  components: { Comments, Gallery },
 })
 </script>
 

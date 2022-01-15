@@ -85,9 +85,9 @@
           max-h-[650px]
         "
       >
-        <div v-if="comments.length === 0">
+        <div v-if="comments.length === 0" class="p-4">
           <h3 class="text-2xl text-[#884936] second-accent">
-            Belum ada komentar
+            Belum ada doa dan ucapan dari tamu
           </h3>
         </div>
         <div

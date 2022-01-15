@@ -85,10 +85,11 @@
             <div>
               <h1 class="title-acara">Resepsi</h1>
               <h2 class="lokasi-acara">
-                Masjid Jami Al-Amin, RW 03, Pondok Permai, Kutabaru, Tangerang.
+                Lapangan Masjid Jami Al-Amin, RW 03, Pondok Permai, Kutabaru,
+                Tangerang.
               </h2>
               <h3 class="waktu-acara">Sabtu, 5 Maret 2022</h3>
-              <h4 class="waktu-acara">11.00 - 16.00</h4>
+              <h4 class="waktu-acara">11.00 - 17.00</h4>
             </div>
           </section>
         </div>
@@ -99,7 +100,6 @@
           Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
           Bappak/Ibu/Saudara/i berkenan hadir untuk memberikan do’a restu kepada
           kedua mempelai.
-          <br />
           <br />
           Waalaikumsalam Warahmatullahi Wabarakatuh
         </p>
@@ -131,34 +131,31 @@
           ></iframe>
         </div>
 
-        <div class="flex mb-8">
+        <div class="mb-8">
           <button
             class="
+              block
               mx-auto
-              relative
-              w-fit
-              h-fit
-              px-5
-              py-2
-              text-lg
+              px-6
+              py-1
               border
               shadow-md
               rounded-full
-              border-[#F5EFEC]
+              hover:bg-transparent
+              font-medium
+              hover:font-semibold
+              text-base text-[BF7E62]
               hover:bg-[#F5EFEC]
+              hover:text-[#BF7E62]
             "
           >
             <a
               href="https://goo.gl/maps/F9B1CqYezf5ZpATn6"
-              target="”_blank”"
-              rel="”noreferrer"
-              noopener”
+              target="_blank"
+              rel="noreferrer"
+              noopener
             >
-              <p
-                class="font-medium text-lg text-[#F5EFEC] hover:text-[#BF7E62]"
-              >
-                Lihat Lokasi
-              </p>
+              <p class="">Lihat Lokasi</p>
             </a>
           </button>
         </div>

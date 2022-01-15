@@ -130,9 +130,9 @@
             <a
               href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220305T020000Z%2F20220305T090000Z&details=&location=Jl.%20Bawal%20IV%20No.20%2C%20Kuta%20Baru%2C%20Kec.%20Ps.%20Kemis%2C%20Kabupaten%20Tangerang%2C%20Banten%2015560%2C%20Indonesia&text=The%20Wedding%20of%20Prien%20%26%20Juanda"
               title="Simpan Acara Pernikahan"
-              target="”_blank”"
-              rel="”noreferrer"
-              noopener”
+              target="_blank"
+              rel="noreferrer"
+              noopener
             >
               <p class="">Simpan Acara</p>
             </a>
@@ -359,7 +359,7 @@
                 Putri Keempat dari
               </h2>
               <h3 class="orang-tua-mempelai second-accent">
-                Bapak Priyadhi & Ibu Indi Madu Rini
+                Bpk Priyadhi MN & Ibu Indi Madu Rini
               </h3>
             </div>
           </div>
@@ -376,7 +376,7 @@
                 Putra Kedua dari
               </h2>
               <h3 class="orang-tua-mempelai second-accent">
-                Bapak Sutri Eko P & Ibu Emmy Catur H
+                Bpk Sutri Eko P & Ibu Emmy Catur H
               </h3>
             </div>
           </div>
