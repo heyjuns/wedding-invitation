@@ -41,7 +41,6 @@ export default {
 .modal {
   background: #ffffff;
   box-shadow: 2px 2px 20px 1px;
-  overflow-x: auto;
   display: flex;
   flex-direction: column;
 }

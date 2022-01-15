@@ -14,24 +14,23 @@
         flex flex-col
         items-center
         justify-center
-        w-10/12
-        lg:w-8/12
-        xl:w-6/12
-        bg-[#F5EFEC]
         m-auto
+        w-[768px]
+        bg-[#F5EFEC]
         rounded-2xl
         text-center
       "
     >
       <img
         src="https://dummyimage.com/164x164"
-        class="rounded-full m-4 lg:w-72"
+        class="block mx-auto rounded-full m-4 lg:w-72"
         alt=""
       />
-      <p class="text-base lg:text-lg text-accent-200">Undangan Pernikahan</p>
+      <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
       <h1 class="my-2 hand-lettering text-5xl lg:text-7xl text-accent-100">
         Prien
-        <span class="block md:inline hand-lettering leading-10">&</span> Juanda
+        <span class="block sm:inline hand-lettering leading-none">&</span>
+        Juanda
       </h1>
       <p class="text-lg lg:text-xl font-medium text-accent-100">05.03.2022</p>
       <button
@@ -40,7 +39,8 @@
           block
           py-2
           px-5
-          my-10
+          mt-4
+          mb-6
           font-medium
           shadow-md
           text-white
@@ -54,31 +54,31 @@
       >
         Buka Undangan
       </button>
-      <div class="grid grid-cols-4 gap-2">
-        <div class="bg-white rounded-full p-2 md:p-4">
+      <div class="grid grid-cols-4 gap-1">
+        <div class="bg-white rounded-2xl p-2 md:p-4">
           <img
-            class="block mx-auto w-16 aspect-square"
+            class="block mx-auto w-8"
             src="~/assets/Frameprokes.png"
             alt=""
           />
         </div>
-        <div class="bg-white rounded-full p-2 md:p-4">
+        <div class="bg-white rounded-2xl p-2 md:p-4">
           <img
-            class="block mx-auto w-16 aspect-square"
+            class="block mx-auto w-8"
             src="~/assets/Frameprokes-1.png"
             alt=""
           />
         </div>
-        <div class="bg-white rounded-full p-2 md:p-4">
+        <div class="bg-white rounded-2xl p-2 md:p-4">
           <img
-            class="block mx-auto w-16 aspect-square"
+            class="block mx-auto w-8"
             src="~/assets/Frameprokes-2.png"
             alt=""
           />
         </div>
-        <div class="bg-white rounded-full p-2 md:p-4">
+        <div class="bg-white rounded-2xl p-2 md:p-4">
           <img
-            class="block mx-auto w-16 aspect-square"
+            class="block mx-auto w-8"
             src="~/assets/Frameprokes-3.png"
             alt=""
           />

@@ -152,7 +152,7 @@
         </h1>
         <div
           class="
-            px-8
+            px-4
             pb-10
             justify-center
             grid grid-cols-1
