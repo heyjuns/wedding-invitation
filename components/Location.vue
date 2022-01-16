@@ -30,7 +30,7 @@
           <section id="akad-nikah" class="">
             <div class="inline-block m-auto">
               <svg
-                class="w-40 m-4"
+                class="w-36 m-4"
                 viewBox="0 0 166 166"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
           <section id="resepsi-section" class="">
             <div class="inline-block m-auto">
               <svg
-                class="w-40 m-4"
+                class="w-36 m-4"
                 viewBox="0 0 166 166"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -141,12 +141,10 @@
               border
               shadow-md
               rounded-full
-              hover:bg-transparent
               font-medium
-              hover:font-semibold
-              text-base text-[BF7E62]
-              hover:bg-[#F5EFEC]
-              hover:text-[#BF7E62]
+              text-base text-background-tint
+              border-background-tint
+              hover:shadow-xl
             "
           >
             <a
@@ -155,7 +153,19 @@
               rel="noreferrer"
               noopener
             >
-              <p class="">Lihat Lokasi</p>
+              <p class="">
+                <svg
+                  class="inline w-4 mr-1 text-background-tint"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24 0L0 9.46714V10.6993L9.12 14.031L12.64 22.6306H13.9467L24 0Z"
+                  />
+                </svg>
+                Lihat Lokasi
+              </p>
             </a>
           </button>
         </div>

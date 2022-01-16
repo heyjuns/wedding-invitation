@@ -5,7 +5,7 @@
         bg-[url('~assets/taneman-4.svg')] bg-position-invitation-side-by-side
         m-auto
         md:w-10/12
-        bg-[#F5EFEC]
+        bg-background-tint
         rounded-t-2xl
       "
     >
@@ -134,7 +134,19 @@
               rel="noreferrer"
               noopener
             >
-              <p class="">Simpan Acara</p>
+              <p class="">
+                <svg
+                  class="inline mr-1 w-4 text-inherit"
+                  viewBox="0 0 31 34"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M27.9 3.00031H26.35V0H23.25V3.00031H7.75V0H4.65V3.00031H3.1C1.395 3.00031 0 4.35044 0 6.00061V30.0031C0 31.6532 1.395 33.0034 3.1 33.0034H27.9C29.605 33.0034 31 31.6532 31 30.0031V6.00061C31 4.35044 29.605 3.00031 27.9 3.00031ZM27.9 30.0031H3.1V10.5011H27.9V30.0031Z"
+                  />
+                </svg>
+                Simpan Acara
+              </p>
             </a>
           </button>
         </div>
@@ -147,7 +159,9 @@
             Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan kami.
           </p>
         </div>
-        <h1 class="text-center text-accent-100 hand-lettering mt-10 mb-2 text-4xl">
+        <h1
+          class="text-center text-accent-100 hand-lettering mt-10 mb-2 text-4xl"
+        >
           Kedua Mempelai
         </h1>
         <div
@@ -354,7 +368,7 @@
               alt="Pasangan Pria"
             />
             <div class="text-center">
-              <h1 class="nama-mempelai second-accent">Prien Novita Ayu C.</h1>
+              <h1 class="nama-mempelai second-accent">Prien Novita Ayu C. S.E</h1>
               <h2 class="urutan-anak-mempelai second-accent">
                 Putri Keempat dari
               </h2>
@@ -371,7 +385,7 @@
               alt="Pasangan Pria"
             />
             <div class="text-center">
-              <h1 class="nama-mempelai second-accent">Juanda Leonardo</h1>
+              <h1 class="nama-mempelai second-accent">Juanda Leonardo S.Kom</h1>
               <h2 class="urutan-anak-mempelai second-accent">
                 Putra Kedua dari
               </h2>

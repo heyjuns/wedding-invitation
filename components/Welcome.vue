@@ -16,7 +16,7 @@
         justify-center
         m-auto
         w-[768px]
-        bg-[#F5EFEC]
+        bg-background-tint
         rounded-2xl
         text-center
       "
