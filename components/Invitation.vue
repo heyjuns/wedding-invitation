@@ -84,30 +84,9 @@
           </div>
         </div>
 
-        <section
-          id="countdown-time"
-          class="mx-auto block py-5 px-4 md:p-8 lg:w-[768px]"
-        >
-          <div class="grid gap-1 md:gap-2 lg:gap-4 grid-cols-4">
-            <div class="countdown-time">
-              <h1 class="countdown-remain">265</h1>
-              <p class="countdown-title">Hari</p>
-            </div>
-            <div class="countdown-time">
-              <h1 class="countdown-remain">265</h1>
-              <p class="countdown-title">Jam</p>
-            </div>
-            <div class="countdown-time">
-              <h1 class="countdown-remain">265</h1>
-              <p class="countdown-title">Menit</p>
-            </div>
-            <div class="countdown-time">
-              <h1 class="countdown-remain">265</h1>
-              <p class="countdown-title">Detik</p>
-            </div>
-          </div>
-        </section>
-
+        <countdown
+          endtime="Mar 5, 2022 09:00:00"
+        />
         <div class="mb-8">
           <button
             class="
@@ -368,7 +347,9 @@
               alt="Pasangan Pria"
             />
             <div class="text-center">
-              <h1 class="nama-mempelai second-accent">Prien Novita Ayu C. S.E</h1>
+              <h1 class="nama-mempelai second-accent">
+                Prien Novita Ayu C. S.E
+              </h1>
               <h2 class="urutan-anak-mempelai second-accent">
                 Putri Keempat dari
               </h2>
@@ -402,8 +383,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Countdown from './Countdown.vue'
 export default Vue.extend({
   name: 'WelcomeJumbotron',
+  components: { Countdown },
 })
 </script>
 <style>

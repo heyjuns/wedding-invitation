@@ -4,7 +4,7 @@
 
 @layer components {
   .countdown-time {
-    @apply flex flex-col aspect-square rounded-xl  bg-white items-center justify-center shadow-md;
+    @apply flex flex-col w-full aspect-square rounded-xl bg-white items-center justify-center shadow-md;
   }
   .countdown-remain {
     @apply text-accent-100 text-base md:text-2xl lg:text-4xl font-semibold second-accent;
