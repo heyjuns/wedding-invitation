@@ -4,7 +4,6 @@
       class="
         m-auto
         bg-background-tint
-        rounded-b-2xl
         w-full
         bg-[url('~assets/taneman-4.svg')] bg-position-pray-side-by-side
       "

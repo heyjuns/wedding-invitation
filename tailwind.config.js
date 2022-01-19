@@ -1,6 +1,7 @@
 
 module.exports = {
   mode: 'jit',
+  darkMode:false,
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
