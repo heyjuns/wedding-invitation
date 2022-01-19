@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Modal v-show="isModalVisible" @close="closeModal"> </Modal>
+    <!-- <Modal v-show="isModalVisible" @close="closeModal"> </Modal> -->
     <div
       class="
         p-4
@@ -10,9 +10,11 @@
         bg-[url('assets/dark-brown-paper-texture-background.webp')]
       "
     >
-      <Invitation />
-      <Location />
-      <Pray />
+      <div class="w-10/12 mx-auto">
+        <Invitation />
+        <Location />
+        <Pray />
+      </div>
       <Footer />
     </div>
   </div>

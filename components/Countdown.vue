@@ -1,6 +1,6 @@
 <template>
   <section
-    id="countdown-time"
+    id="countdown-time-containe"
     class="mx-auto block py-5 px-4 md:p-8 lg:w-[768px]"
   >
     <div class="grid gap-1 md:gap-2 lg:gap-4 grid-cols-4">
