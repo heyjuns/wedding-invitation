@@ -127,28 +127,17 @@
             </a>
           </button>
         </div>
-        <div class="flex mx-auto my-5 w-9/12 md:w-9/12 lg:w-8/12 xl:w-8/12">
-          <p class="flex-grow text-accent-300 text-sm md:text-lg text-center">
-            Assalamu`alaikum Warahmatullaahi Wabarakaatuh <br />
-            Maha Suci Allah yang telah menciptakan makhluk-Nya
-            berpasang-pasangan.
-            <br />
-            Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan kami.
-          </p>
-        </div>
 
         <div class="mx-auto block lg:w-[768px] py-5 px-4">
-          <h1
-            class="
-              text-center text-accent-100
-              hand-lettering
-              mt-10
-              mb-2
-              text-4xl
-            "
-          >
+          <div class="flex mx-auto my-5 w-full">
+            <p class="flex-grow text-accent-300 text-sm md:text-lg text-center">
+              Maha Suci Allah SWT yang telah menciptakan makhluk-Nya
+              berpasang-pasangan, Ya Allah perkenankanlah putra putri kami :
+            </p>
+          </div>
+          <!-- <h1 class="text-center text-accent-100 hand-lettering mb-2 text-4xl">
             Kedua Mempelai
-          </h1>
+          </h1> -->
           <div class="grid gap-2 lg:gap-4 grid-cols-1 md:grid-cols-2">
             <div class="bg-white rounded-2xl p-6 shadow-xl">
               <div class="absolute z-10">
@@ -371,6 +360,12 @@
                 </h3>
               </div>
             </div>
+          </div>
+          <div class="flex mx-auto my-5 w-full">
+            <p class="flex-grow text-accent-300 text-sm md:text-lg text-center">
+              Untuk Mengikuti Sunnah Rasul-Mu, dalam rangka mewujudkan keluarga
+              yang sakinah, mawaddah, warrahmah
+            </p>
           </div>
         </div>
       </div>

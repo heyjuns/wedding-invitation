@@ -8,12 +8,22 @@
         bg-position-location-side-by-side
         text-white
         w-full
+        p-4
         bg-[#BF7E62]
       "
     >
       <section>
         <div class="text-center text-4xl pt-10 hand-lettering">
           Informasi Acara
+        </div>
+        <div class="flex mx-auto mt-2 mb-8 w-10/12 lg:w-5/12">
+          <p class="flex-grow text-white text-sm md:text-lg text-center">
+            Bismillahirrahmanirrahim Assalamualaikum Warahmatullahi Wabarakatuh
+            <br />
+            Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
+            menyelenggarakan resepsi pernikahan Putra-putri kami yang Insya
+            Allah akan dilaksanakan pada:
+          </p>
         </div>
         <div
           class="
@@ -98,8 +108,10 @@
       <div class="flex mx-auto mt-2 mb-8 w-10/12 lg:w-5/12">
         <p class="flex-grow text-white text-sm md:text-lg text-center">
           Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-          Bappak/Ibu/Saudara/i berkenan hadir untuk memberikan do’a restu kepada
-          kedua mempelai.
+          Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada
+          kedua mempelai
+          <br />
+          Atas kehadiran dan do'a restunya kami ucapkan terima kasih
           <br />
           Waalaikumsalam Warahmatullahi Wabarakatuh
         </p>
