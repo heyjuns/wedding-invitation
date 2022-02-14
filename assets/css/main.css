@@ -31,7 +31,7 @@
   }
   #akad-nikah,
   #resepsi-section {
-    @apply text-center pb-4 px-8 lg:p-8 lg:w-4/12;
+    @apply text-center;
   }
   .title-acara {
     @apply text-3xl hand-lettering;
