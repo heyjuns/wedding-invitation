@@ -33,9 +33,9 @@
         <div class="w-full p-3 mx-auto space-y-4">
           <p>
             Terima kasih telah ikut berbahagia bersama kami Do'a Restu Anda
-            merupakan karunia yang sangat berarti bagi kami. Dan jika memberi
-            adalah ungkapan tanda kasih, Anda dapat memberikan hadiah secara
-            cashless melalui rekening/e-wallet berikut
+            merupakan karunia yang sangat berarti bagi kami. Namun jika memberi
+            adalah ungkapan tanda kasih, kami dengan senang hati menerimanya dan
+            tentunya semakin melengkapi kebahagiaan kami
           </p>
           <div>
             <img
@@ -43,14 +43,9 @@
               class="block mx-auto w-full max-w-[250px]"
               alt=""
             />
-            <h1 class="font-semibold text-xl">7235083779</h1>
-            <p class="text-base font-medium">a/n Prien Novita Ayu</p>
+            <h1 class="font-semibold text-xl">6042158450</h1>
+            <p class="text-base font-medium">Prien Novita Ayu</p>
           </div>
-
-          <p>
-            Sebelumnya, kami ucapkan terima kasih atas perhatian dan bentuk
-            tanda cinta Bapak/Ibu/Saudara/i untuk kami
-          </p>
         </div>
       </div>
     </div>
