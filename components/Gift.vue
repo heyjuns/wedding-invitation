@@ -22,7 +22,6 @@
           xl:w-6/12
           text-accent-400
           p-4
-          md:p-8
           text-center
           rounded-2xl
           mx-auto
@@ -30,7 +29,7 @@
           md:text-sm
         "
       >
-        <div class="w-full p-3 mx-auto space-y-4">
+        <div class="w-full p-2 mx-auto space-y-4">
           <p>
             Terima kasih telah ikut berbahagia bersama kami Do'a Restu Anda
             merupakan karunia yang sangat berarti bagi kami. Namun jika memberi

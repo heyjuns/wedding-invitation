@@ -14,40 +14,69 @@
         >
           <div class="w-full rounded">
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+              class="aspect-square object-cover"
+              src="~assets/IMG_0027.jpg"
               alt="image"
             />
           </div>
           <div class="w-full col-span-2 row-span-2 rounded">
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+              class="aspect-square object-cover"
+              src="~assets/IMG_0378.jpg"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+              class="aspect-square object-cover"
+              src="~assets/IMG_0189.jpg"
+              alt="image"
+            />
+          </div>
+
+          <div class="w-full col-span-2 row-span-2 rounded">
+            <img
+              class="aspect-square object-cover"
+              src="~assets/IMG_0136.jpg"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+              class="aspect-square object-cover object-top"
+              src="~assets/IMG_0291.jpg"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+              class="aspect-square object-cover object-top"
+              src="~assets/IMG_0448.jpg"
+              alt="image"
+            />
+          </div>
+
+          <!-- <div class="w-full rounded">
+            <img
+              class="aspect-square object-cover"
+              src="~assets/IMG_0291.jpg"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+              class="aspect-square object-cover"
+              src="~assets/IMG_0136.jpg"
               alt="image"
             />
           </div>
+          <div class="w-full rounded">
+            <img
+              class="aspect-square object-cover"
+              src="~assets/IMG_0350.jpg"
+              alt="image"
+            />
+          </div> -->
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Modal v-show="isModalVisible" @close="closeModal"> </Modal>
+    <!-- <Modal v-show="isModalVisible" @close="closeModal"> </Modal> -->
     <div
       class="
         p-4

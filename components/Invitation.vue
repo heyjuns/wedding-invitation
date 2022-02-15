@@ -326,7 +326,7 @@
               </div>
               <img
                 class="image-mempelai aspect-square"
-                src="https://dummyimage.com/500x500"
+                src="~assets/wanita_adat_2.jpg"
                 alt="Pasangan Pria"
               />
               <div class="text-center">
@@ -345,7 +345,7 @@
             <div class="bg-white rounded-2xl p-6 shadow-xl">
               <img
                 class="image-mempelai aspect-square"
-                src="https://dummyimage.com/500x500"
+                src="~assets/pria_adat.jpg"
                 alt="Pasangan Pria"
               />
               <div class="text-center">
