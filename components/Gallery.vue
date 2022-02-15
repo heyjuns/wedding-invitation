@@ -15,21 +15,21 @@
           <div class="w-full rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0027.jpg"
+              src="~assets/IMG_0027.JPG"
               alt="image"
             />
           </div>
           <div class="w-full col-span-2 row-span-2 rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0378.jpg"
+              src="~assets/IMG_0378.JPG"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0189.jpg"
+              src="~assets/IMG_0189.JPG"
               alt="image"
             />
           </div>
@@ -37,21 +37,21 @@
           <div class="w-full col-span-2 row-span-2 rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0136.jpg"
+              src="~assets/IMG_0136.JPG"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0291.jpg"
+              src="~assets/IMG_0291.JPG"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0448.jpg"
+              src="~assets/IMG_0448.JPG"
               alt="image"
             />
           </div>
@@ -59,21 +59,21 @@
           <!-- <div class="w-full rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0291.jpg"
+              src="~assets/IMG_0291.JPG"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0136.jpg"
+              src="~assets/IMG_0136.JPG"
               alt="image"
             />
           </div>
           <div class="w-full rounded">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0350.jpg"
+              src="~assets/IMG_0350.JPG"
               alt="image"
             />
           </div> -->
