@@ -17,7 +17,7 @@
         <section>
           <div class="">
             <p class="text-white text-sm md:text-lg text-center">
-              Bismillahirrahmanirrahim Assalamualaikum Warahmatullahi
+              Bismillahirrahmanirrahim <br> Assalamualaikum Warahmatullahi
               Wabarakatuh
               <br />
               Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
@@ -62,7 +62,7 @@
                   Tangerang.
                 </h2>
                 <h3 class="waktu-acara">Sabtu, 5 Maret 2022</h3>
-                <h4 class="waktu-acara">08.00 - 10.00</h4>
+                <h4 class="waktu-acara">08:00 - 10:00 WIB</h4>
               </div>
             </section>
             <section id="resepsi-section" class="">
@@ -103,7 +103,7 @@
                   Tangerang.
                 </h2>
                 <h3 class="waktu-acara">Sabtu, 5 Maret 2022</h3>
-                <h4 class="waktu-acara">11.00 - 17.00</h4>
+                <h4 class="waktu-acara">11:00 - 17:00 WIB</h4>
               </div>
             </section>
           </div>
@@ -117,7 +117,7 @@
             <br />
             Atas kehadiran dan do'a restunya kami ucapkan terima kasih
             <br />
-            Waalaikumsalam Warahmatullahi Wabarakatuh
+            Wassalamualaikum Warahmatullahi Wabarakatuh
           </p>
         </section>
 
@@ -138,7 +138,6 @@
             <iframe
               class="w-full aspect-video p-3"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.70759212898!2d106.57191812922541!3d-6.153468066343683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff852e28722d%3A0x6741146475a67fee!2sMasjid%20Jami&#39;%20Al-amin!5e0!3m2!1sen!2sid!4v1645081832732!5m2!1sen!2sid"
-
               style="border: 0"
               allowfullscreen=""
               loading="lazy"

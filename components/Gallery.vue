@@ -12,21 +12,21 @@
             lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3
           "
         >
-          <div class="w-full rounded">
+          <div class="w-full">
             <img
               class="aspect-square object-cover"
               src="~assets/IMG_0027.JPG"
               alt="image"
             />
           </div>
-          <div class="w-full col-span-2 row-span-2 rounded">
+          <div class="w-full col-span-2 row-span-2">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0378.JPG"
+              src="~assets/IMG_0360.JPG"
               alt="image"
             />
           </div>
-          <div class="w-full rounded">
+          <div class="w-full">
             <img
               class="aspect-square object-cover"
               src="~assets/IMG_0189.JPG"
@@ -34,24 +34,24 @@
             />
           </div>
 
-          <div class="w-full col-span-2 row-span-2 rounded">
+          <div class="w-full col-span-2 row-span-2">
             <img
               class="aspect-square object-cover"
               src="~assets/IMG_0136.JPG"
               alt="image"
             />
           </div>
-          <div class="w-full rounded">
+          <div class="w-full">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0291.JPG"
+              src="~assets/IMG_0375.JPG"
               alt="image"
             />
           </div>
-          <div class="w-full rounded">
+          <div class="w-full">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0448.JPG"
+              src="~assets/IMG_0274.JPG"
               alt="image"
             />
           </div>

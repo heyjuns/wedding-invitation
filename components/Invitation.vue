@@ -334,7 +334,7 @@
                   Prien Novita Ayu C. S.E
                 </h1>
                 <h2 class="urutan-anak-mempelai second-accent">
-                  Putri Keempat dari
+                  Anak ke-4 dari
                 </h2>
                 <h3 class="orang-tua-mempelai second-accent">
                   Bpk Priyadhi MN & Ibu Indi Madu Rini
@@ -353,7 +353,7 @@
                   Juanda Leonardo S.Kom
                 </h1>
                 <h2 class="urutan-anak-mempelai second-accent">
-                  Putra Kedua dari
+                  Anak ke-2 dari
                 </h2>
                 <h3 class="orang-tua-mempelai second-accent">
                   Bpk Sutri Eko P & Ibu Emmy Catur H

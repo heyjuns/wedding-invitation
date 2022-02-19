@@ -31,17 +31,11 @@
       >
         <div class="w-full p-2 mx-auto space-y-4">
           <p>
-            Terima kasih telah ikut berbahagia bersama kami Do'a Restu Anda
-            merupakan karunia yang sangat berarti bagi kami. Namun jika memberi
-            adalah ungkapan tanda kasih, kami dengan senang hati menerimanya dan
-            tentunya akan semakin melengkapi kebahagiaan kami
+            Tanpa mengurangi rasa hormat, bagi keluarga, sahabat, dan rekan yang
+            ingin memberikan tanda kasih untuk kami, dapat melalui:
           </p>
           <div>
-            <img
-              src="~assets/bca.svg"
-              class="block mx-auto w-full max-w-[250px]"
-              alt=""
-            />
+            <img src="~assets/bca.svg" class="block mx-auto w-28" alt="" />
             <h1 class="font-semibold text-xl">6042158450</h1>
             <p class="text-base font-medium">Prien Novita Ayu</p>
           </div>
