@@ -37,7 +37,7 @@
           <div class="w-full col-span-2 row-span-2">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0136.JPG"
+              src="~assets/IMG_0002.JPG"
               alt="image"
             />
           </div>
