@@ -4,7 +4,7 @@
       flex
       h-screen
       m-auto
-      bg-[url('~assets/bg-home.webp')] bg-top bg-cover bg-no-repeat
+      bg-[url('~assets/bg-home.JPG')] bg-top bg-cover bg-no-repeat
     "
   >
     <div
@@ -15,15 +15,14 @@
         items-center
         justify-center
         m-auto
-        w-[768px]
         bg-background-tint
         rounded-2xl
         text-center
       "
     >
       <img
-        src="https://dummyimage.com/164x164"
-        class="block mx-auto rounded-full m-4 lg:w-72"
+        src="~assets/berdua.JPG"
+        class="block mx-auto rounded-full m-4 w-40 lg:w-72"
         alt=""
       />
       <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>

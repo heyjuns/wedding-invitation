@@ -34,7 +34,7 @@
             Terima kasih telah ikut berbahagia bersama kami Do'a Restu Anda
             merupakan karunia yang sangat berarti bagi kami. Namun jika memberi
             adalah ungkapan tanda kasih, kami dengan senang hati menerimanya dan
-            tentunya semakin melengkapi kebahagiaan kami
+            tentunya akan semakin melengkapi kebahagiaan kami
           </p>
           <div>
             <img
