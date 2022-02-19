@@ -62,7 +62,7 @@
                   Tangerang.
                 </h2>
                 <h3 class="waktu-acara">Sabtu, 5 Maret 2022</h3>
-                <h4 class="waktu-acara">09.00 - 10.00</h4>
+                <h4 class="waktu-acara">08.00 - 10.00</h4>
               </div>
             </section>
             <section id="resepsi-section" class="">
@@ -137,7 +137,8 @@
           >
             <iframe
               class="w-full aspect-video p-3"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.7063416152381!2d106.5725372117676!3d-6.154138155062919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff852e4779bd%3A0x3065bd668cdd8fa3!2sJl.%20Bawal%20IV%20Blok%20B4%20No.20%2C%20Kuta%20Baru%2C%20Kec.%20Ps.%20Kemis%2C%20Kabupaten%20Tangerang%2C%20Banten%2015560!5e0!3m2!1sid!2sid!4v1641831456275!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.70759212898!2d106.57191812922541!3d-6.153468066343683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff852e28722d%3A0x6741146475a67fee!2sMasjid%20Jami&#39;%20Al-amin!5e0!3m2!1sen!2sid!4v1645081832732!5m2!1sen!2sid"
+
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -161,7 +162,7 @@
               "
             >
               <a
-                href="https://goo.gl/maps/F9B1CqYezf5ZpATn6"
+                href="https://goo.gl/maps/QKjAXVLPqUPQ8DH48"
                 target="_blank"
                 rel="noreferrer"
                 noopener
