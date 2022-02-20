@@ -4,7 +4,7 @@
       flex
       h-screen
       m-auto
-      bg-[url('~assets/bg-home.JPG')] bg-top bg-cover bg-no-repeat
+      bg-[url('~assets/bg-home.webp')] bg-top bg-cover bg-no-repeat
     "
   >
     <div
@@ -21,7 +21,7 @@
       "
     >
       <img
-        src="~assets/berdua.JPG"
+        src="~assets/berdua.webp"
         class="block mx-auto rounded-full m-4 w-40 lg:w-72"
         alt=""
       />

@@ -22,14 +22,14 @@
           <div class="w-full col-span-2 row-span-2">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0340.JPG"
+              src="~assets/IMG_0340.webp"
               alt="image"
             />
           </div>
           <div class="w-full">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0189.JPG"
+              src="~assets/IMG_0189.webp"
               alt="image"
             />
           </div>
@@ -37,46 +37,24 @@
           <div class="w-full col-span-2 row-span-2">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0002.JPG"
+              src="~assets/IMG_0002.webp"
               alt="image"
             />
           </div>
           <div class="w-full">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0375.JPG"
+              src="~assets/IMG_0375.webp"
               alt="image"
             />
           </div>
           <div class="w-full">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0349.JPG"
+              src="~assets/IMG_0349.webp"
               alt="image"
             />
           </div>
-
-          <!-- <div class="w-full rounded">
-            <img
-              class="aspect-square object-cover"
-              src="~assets/IMG_0291.JPG"
-              alt="image"
-            />
-          </div>
-          <div class="w-full rounded">
-            <img
-              class="aspect-square object-cover"
-              src="~assets/IMG_0136.JPG"
-              alt="image"
-            />
-          </div>
-          <div class="w-full rounded">
-            <img
-              class="aspect-square object-cover"
-              src="~assets/IMG_0350.JPG"
-              alt="image"
-            />
-          </div> -->
         </div>
       </div>
     </div>
