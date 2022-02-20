@@ -1,43 +1,64 @@
 <template>
-  <section class="flex">
-    <div class="m-auto py-8 text-white w-full bg-[#BF7E62] rounded-b-2xl">
-      <h1
-        class="
-          pb-8
-          px-8
-          text-4xl
-          hand-lettering
-          text-center text-white
-          hand-lettering
-        "
-      >
-        Hadiah Pernikahan
-      </h1>
-      <div
-        class="
-          bg-white
-          w-10/12
-          md:w-9/12
-          lg:w-8/12
-          xl:w-6/12
-          text-accent-400
-          p-4
-          text-center
-          rounded-2xl
-          mx-auto
-          text-xs
-          md:text-sm
-        "
-      >
-        <div class="w-full p-2 mx-auto space-y-4">
-          <p>
-            Tanpa mengurangi rasa hormat, bagi keluarga, sahabat, dan rekan yang
-            ingin memberikan tanda kasih untuk kami, dapat melalui:
-          </p>
-          <div>
-            <img src="~assets/bca.svg" class="block mx-auto w-28" alt="" />
-            <h1 class="font-semibold text-xl">6042158450</h1>
-            <p class="text-base font-medium">Prien Novita Ayu</p>
+  <section
+    class="flex m-auto py-4 px-8 text-white w-full bg-[#BF7E62] rounded-b-2xl"
+  >
+    <div class="mx-auto space-y-4 w-[768px]">
+      <div class="mx-auto text-center">
+        <h1
+          class="text-4xl hand-lettering text-center text-white hand-lettering"
+        >
+          Hadiah Pernikahan
+        </h1>
+        <p>
+          Tanpa mengurangi rasa hormat, bagi keluarga, sahabat, dan rekan yang
+          ingin memberikan tanda kasih untuk kami, dapat melalui:
+        </p>
+      </div>
+
+      <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
+        <div
+          class="
+            bg-white
+            text-accent-400
+            p-4
+            text-center
+            rounded-2xl
+            text-xs
+            md:text-sm
+          "
+        >
+          <div class="w-full space-y-2 px-4">
+            <img src="~assets/bca.svg" class="h-14 mx-auto" alt="" />
+            <div class="m-auto space-y-1">
+              <h1 class="font-semibold text-base">Amplop Digital</h1>
+              <div>
+                <p class="text-sm font-semibold">6042158450</p>
+                <p class="text-sm font-medium">Prien Novita Ayu Cahyaningrum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            bg-white
+            text-accent-400
+            p-4
+            text-center
+            rounded-2xl
+            text-xs
+            md:text-sm
+          "
+        >
+          <div class="w-full space-y-2 px-4">
+            <img src="~assets/gift.png" class="w-14 mx-auto" alt="" />
+            <div class="m-auto space-y-1">
+              <h1 class="font-semibold text-base">Kirim Hadiah</h1>
+              <div>
+                <p class="text-sm font-medium">
+                  Jl . Gurame 1 No. 20 RT 03/03 Pd Permai Kutabaru Tangerang
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

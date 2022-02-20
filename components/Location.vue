@@ -12,12 +12,12 @@
         bg-[#BF7E62]
       "
     >
-      <div class="max-w-[768px] mx-auto space-y-6">
-        <div class="text-center text-4xl hand-lettering">Informasi Acara</div>
+      <div class="max-w-[768px] mx-auto space-y-4">
+        <div class="text-center text-4xl hand-lettering">Bismillahirrahmanirrahim</div>
         <section>
           <div class="">
             <p class="text-white text-sm md:text-lg text-center">
-              Bismillahirrahmanirrahim <br> Assalamualaikum Warahmatullahi
+               <br> Assalamualaikum Warahmatullahi
               Wabarakatuh
               <br />
               Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud

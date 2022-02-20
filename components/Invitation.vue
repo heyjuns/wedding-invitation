@@ -52,7 +52,7 @@
 
         <div class="text-center p-4">
           <div class="text-xs sm:text-lg md:text-xl text-accent-200">
-            Undangan Pernikahan
+            The Wedding Of
           </div>
           <div
             class="
