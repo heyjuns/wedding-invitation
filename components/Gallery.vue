@@ -22,7 +22,7 @@
           <div class="w-full col-span-2 row-span-2">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0360.JPG"
+              src="~assets/IMG_0340.JPG"
               alt="image"
             />
           </div>
@@ -51,7 +51,7 @@
           <div class="w-full">
             <img
               class="aspect-square object-cover object-top"
-              src="~assets/IMG_0274.JPG"
+              src="~assets/IMG_0349.JPG"
               alt="image"
             />
           </div>

@@ -13,7 +13,7 @@
       "
     >
       <div class="max-w-[768px] mx-auto space-y-4">
-        <div class="text-center text-4xl hand-lettering">Bismillahirrahmanirrahim</div>
+        <div class="text-center text-2xl md:text-4xl hand-lettering">Bismillahirrahmanirrahim</div>
         <section>
           <div class="">
             <p class="text-white text-sm md:text-lg text-center">
