@@ -197,7 +197,7 @@ export default Vue.extend({
 
 <style>
 .bg-position-location-side-by-side {
-  background-position: 0 10%, 100% 90%;
+  background-position: 0 10%, 100% 100%;
   background-size: 250px;
 }
 @media screen and (min-width: 1024px) {
