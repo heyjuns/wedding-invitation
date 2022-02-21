@@ -3,10 +3,9 @@
     <Modal v-show="isModalVisible" @close="closeModal"> </Modal>
     <div
       class="
-        p-4
+        py-6
+        px-4
         lg:pt-10
-        pb-4
-        py-2
         bg-[url('assets/dark-brown-paper-texture-background.webp')]
       "
     >

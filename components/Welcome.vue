@@ -10,7 +10,8 @@
     <div
       class="
         shadow-xl
-        p-5
+        px-10
+        py-5
         flex flex-col
         items-center
         justify-center
@@ -22,11 +23,11 @@
     >
       <img
         src="~assets/berdua.webp"
-        class="block mx-auto rounded-full m-4 w-40 lg:w-72"
+        class="block mx-auto rounded-full mb-4 w-40 aspect-square lg:w-72"
         alt=""
       />
       <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
-      <h1 class="my-2 hand-lettering text-5xl lg:text-7xl text-accent-100">
+      <h1 class="my-2 hand-lettering text-5xl lg:text-7xl text-accent-100 leading-10">
         Prien
         <span class="block sm:inline hand-lettering leading-none">&</span>
         Juanda
