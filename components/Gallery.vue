@@ -15,7 +15,7 @@
           <div class="w-full">
             <img
               class="aspect-square object-cover"
-              src="~assets/IMG_0027.JPG"
+              src="~assets/IMG_0027.webp"
               alt="image"
             />
           </div>
