@@ -35,13 +35,7 @@
                 <p class="text-sm font-semibold">6042158450</p>
                 <p class="text-sm font-medium">Prien Novita Ayu Cahyaningrum</p>
               </div>
-              <button
-                @click="
-                  copyToClipboard(
-                    '6042158450'
-                  )
-                "
-              >
+              <button @click="copyToClipboard('6042158450')">
                 <span>
                   <img
                     class="inline w-5"
@@ -104,6 +98,7 @@ export default Vue.extend({
   methods: {
     copyToClipboard(teks: string) {
       navigator.clipboard.writeText(teks)
+      this.$toast.info('Salin ke clipboard berhasil').goAway(2000);
     },
   },
 })
