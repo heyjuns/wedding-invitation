@@ -32,18 +32,23 @@
             <div class="m-auto space-y-1">
               <h1 class="font-semibold text-base">Amplop Digital</h1>
               <div>
-                <p class="text-sm font-semibold">6042158450</p>
+                <p class="text-sm font-semibold">
+                  6042158450
+
+                  <button
+                    @click="copyToClipboard('Amplop Digital', '6042158450')"
+                  >
+                    <span>
+                      <img
+                        class="w-4"
+                        src="~assets/content_copy_black_24dp.svg"
+                        alt=""
+                      />
+                    </span>
+                  </button>
+                </p>
                 <p class="text-sm font-medium">Prien Novita Ayu Cahyaningrum</p>
               </div>
-              <button class="p-2" @click="copyToClipboard('6042158450')">
-                <span>
-                  <img
-                    class="inline w-5"
-                    src="~assets/content_copy_black_24dp.svg"
-                    alt=""
-                  />
-                </span>
-              </button>
             </div>
           </div>
         </div>
@@ -65,26 +70,27 @@
               <div>
                 <p class="text-sm font-medium">
                   Jl . Gurame 1 No. 20 RT 03/03 Pd Permai Kutabaru Tangerang
+
+                  <button
+                    class="w-4"
+                    @click="
+                      copyToClipboard(
+                        'Alamat Kirim Hadiah',
+                        'Jl . Gurame 1 No. 20 RT 03/03 Pd Permai Kutabaru Tangerang'
+                      )
+                    "
+                  >
+                    <span>
+                      <img
+                        class="inline"
+                        src="~assets/content_copy_black_24dp.svg"
+                        alt=""
+                      />
+                    </span>
+                  </button>
                 </p>
               </div>
             </div>
-
-            <button
-              class="p-2"
-              @click="
-                copyToClipboard(
-                  'Jl . Gurame 1 No. 20 RT 03/03 Pd Permai Kutabaru Tangerang'
-                )
-              "
-            >
-              <span>
-                <img
-                  class="inline w-5"
-                  src="~assets/content_copy_black_24dp.svg"
-                  alt=""
-                />
-              </span>
-            </button>
           </div>
         </div>
       </div>
@@ -97,17 +103,10 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'GiftContainer',
   methods: {
-    async copyToClipboard(teks: string) {
-      await navigator.clipboard.writeText(teks)
-      await this.$toast.info('Salin ke clipboard berhasil').goAway(2000)
+    async copyToClipboard(tipe: string, value: string) {
+      await navigator.clipboard.writeText(value)
+      await this.$toast.show(`${tipe} berhasil di salin`).goAway(2000)
     },
-    // async copySomething(text: string) {
-    //   try {
-    //     await this.$copyText(text)
-    //   } catch (e) {
-    //     console.error(e)
-    //   }
-    // },
   },
 })
 </script>
