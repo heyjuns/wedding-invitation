@@ -111,20 +111,17 @@ export default Vue.extend({
       notificationSound,
     }
   },
-  mounted() {
-    this.playNotification()
-  },
   methods: {
     close() {
+      this.playNotification();
       this.$emit('close')
     },
     playNotification() {
       const audio = new Audio(this.notificationSound)
       audio.volume = 0.05
-      audio.muted = true;
+      audio.preload = 'auto';
+
       audio.play()
-      audio.muted = false;
-      audio.play();
     },
   },
 })
