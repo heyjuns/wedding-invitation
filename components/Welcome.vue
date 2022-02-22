@@ -27,7 +27,16 @@
         alt=""
       />
       <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
-      <h1 class="my-2 hand-lettering text-5xl lg:text-7xl text-accent-100 leading-10">
+      <h1
+        class="
+          my-2
+          hand-lettering
+          text-5xl
+          lg:text-7xl
+          text-accent-100
+          leading-10
+        "
+      >
         Prien
         <span class="block sm:inline hand-lettering leading-none">&</span>
         Juanda
@@ -93,11 +102,26 @@
 
 <script lang="ts">
 import Vue from 'vue'
+const notificationSound = require('@/assets/bg-sound.mp3').default
 export default Vue.extend({
   name: 'WelcomeJumbotron',
+  data() {
+    return {
+      // same as notificationSound: notificationSound,
+      notificationSound,
+    }
+  },
   methods: {
     close() {
+      this.playNotification();
       this.$emit('close')
+    },
+    playNotification() {
+      const audio = new Audio(this.notificationSound)
+      audio.volume = 0.1
+      audio.play()
+
+      console.log(audio)
     },
   },
 })
