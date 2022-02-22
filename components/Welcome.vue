@@ -111,7 +111,7 @@ export default Vue.extend({
       notificationSound,
     }
   },
-  beforeMount() {
+  mounted() {
     this.playNotification()
   },
   methods: {
@@ -121,6 +121,7 @@ export default Vue.extend({
     playNotification() {
       const audio = new Audio(this.notificationSound)
       audio.volume = 0.05
+      audio.preload = 'auto'
       audio.play()
     },
   },
