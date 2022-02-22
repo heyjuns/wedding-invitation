@@ -35,7 +35,7 @@
                 <p class="text-sm font-semibold">6042158450</p>
                 <p class="text-sm font-medium">Prien Novita Ayu Cahyaningrum</p>
               </div>
-              <button @click="copyToClipboard('6042158450')">
+              <button class="p-2" @click="copyToClipboard('6042158450')">
                 <span>
                   <img
                     class="inline w-5"
@@ -70,6 +70,7 @@
             </div>
 
             <button
+              class="p-2"
               @click="
                 copyToClipboard(
                   'Jl . Gurame 1 No. 20 RT 03/03 Pd Permai Kutabaru Tangerang'
@@ -96,10 +97,17 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'GiftContainer',
   methods: {
-    copyToClipboard(teks: string) {
-      navigator.clipboard.writeText(teks)
-      this.$toast.info('Salin ke clipboard berhasil').goAway(2000);
+    async copyToClipboard(teks: string) {
+      await navigator.clipboard.writeText(teks)
+      await this.$toast.info('Salin ke clipboard berhasil').goAway(2000)
     },
+    // async copySomething(text: string) {
+    //   try {
+    //     await this.$copyText(text)
+    //   } catch (e) {
+    //     console.error(e)
+    //   }
+    // },
   },
 })
 </script>
