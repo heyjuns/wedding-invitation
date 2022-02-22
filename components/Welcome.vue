@@ -12,10 +12,12 @@
         shadow-xl
         px-10
         py-5
+        mt-8
+        md:my-auto
+        m-auto
         flex flex-col
         items-center
         justify-center
-        m-auto
         bg-background-tint
         rounded-2xl
         text-center
@@ -39,8 +41,7 @@
           block
           py-2
           px-5
-          mt-4
-          mb-6
+          m-3
           font-medium
           shadow-md
           text-white
