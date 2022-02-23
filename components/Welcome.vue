@@ -19,16 +19,17 @@
         bg-background-tint
         rounded-2xl
         text-center
-        space-y-4
+        space-y-2
+        md:space-y-4
       "
     >
       <div>
         <img
           src="~assets/berdua.webp"
-          class="block mx-auto rounded-full mb-4 w-32 aspect-square lg:w-72"
+          class="block mx-auto rounded-full mb-4 w-36 aspect-square lg:w-72"
           alt=""
         />
-        <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
+        <!-- <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p> -->
         <h1
           class="
             my-2
@@ -36,7 +37,7 @@
             text-5xl
             lg:text-7xl
             text-accent-100
-            leading-10
+            leading-8
           "
         >
           Prien
@@ -49,9 +50,9 @@
             block
             mx-auto
             text-sm text-white
-            px-4
-            py-1
-            my-2
+            px-5
+            py-2
+            my-3
             sm:px-6 sm:py-2 sm:my-4 sm:text-base
             shadow-md
             rounded-full
@@ -74,30 +75,30 @@
 
       <div id="prokes">
         <div class="grid grid-cols-4 gap-1">
-          <div class="bg-white rounded-2xl p-2 md:p-4">
+          <div class="bg-white rounded-2xl p-2">
             <img
-              class="block mx-auto w-8"
+              class="block mx-auto w-6"
               src="~/assets/Frameprokes.png"
               alt=""
             />
           </div>
-          <div class="bg-white rounded-2xl p-2 md:p-4">
+          <div class="bg-white rounded-2xl p-2">
             <img
-              class="block mx-auto w-8"
+              class="block mx-auto w-6"
               src="~/assets/Frameprokes-1.png"
               alt=""
             />
           </div>
-          <div class="bg-white rounded-2xl p-2 md:p-4">
+          <div class="bg-white rounded-2xl p-2">
             <img
-              class="block mx-auto w-8"
+              class="block mx-auto w-6"
               src="~/assets/Frameprokes-2.png"
               alt=""
             />
           </div>
-          <div class="bg-white rounded-2xl p-2 md:p-4">
+          <div class="bg-white rounded-2xl p-2">
             <img
-              class="block mx-auto w-8"
+              class="block mx-auto w-6"
               src="~/assets/Frameprokes-3.png"
               alt=""
             />
