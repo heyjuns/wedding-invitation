@@ -5,7 +5,7 @@
     <div class="mx-auto space-y-4 w-[768px]">
       <div class="mx-auto text-center">
         <h1
-          class="text-4xl hand-lettering text-center text-white hand-lettering"
+          class="text-4xl p-3 hand-lettering text-center text-white hand-lettering"
         >
           Hadiah Pernikahan
         </h1>
