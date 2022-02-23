@@ -114,7 +114,7 @@ export default Vue.extend({
   data() {
     return {
       body: {
-        name: '',
+        name: this.$route.query.kepada ? this.$route.query.kepada : '',
         comment: '',
       },
       comments: [],

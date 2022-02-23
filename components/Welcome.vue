@@ -19,79 +19,94 @@
         bg-background-tint
         rounded-2xl
         text-center
+        space-y-4
       "
     >
-      <img
-        src="~assets/berdua.webp"
-        class="block mx-auto rounded-full mb-4 w-32 aspect-square lg:w-72"
-        alt=""
-      />
-      <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
-      <h1
-        class="
-          my-2
-          hand-lettering
-          text-5xl
-          lg:text-7xl
-          text-accent-100
-          leading-10
-        "
-      >
-        Prien
-        <span class="block sm:inline hand-lettering leading-none">&</span>
-        Juanda
-      </h1>
-      <p class="text-lg lg:text-xl font-medium text-accent-100">05.03.2022</p>
-      <button
-        class="
-          block
-          mx-auto
-          text-sm text-white
-          px-4 py-1 my-2
-          sm:px-6 sm:py-2 sm:my-4 sm:text-base
-          shadow-md
-          rounded-full
-          font-medium
-          bg-[#884936]
-          hover:bg-[#945b4a]
-        "
-        @click="close"
-      >
-        Buka Undangan
-      </button>
-      <div class="grid grid-cols-4 gap-1">
-        <div class="bg-white rounded-2xl p-2 md:p-4">
-          <img
-            class="block mx-auto w-8"
-            src="~/assets/Frameprokes.png"
-            alt=""
-          />
-        </div>
-        <div class="bg-white rounded-2xl p-2 md:p-4">
-          <img
-            class="block mx-auto w-8"
-            src="~/assets/Frameprokes-1.png"
-            alt=""
-          />
-        </div>
-        <div class="bg-white rounded-2xl p-2 md:p-4">
-          <img
-            class="block mx-auto w-8"
-            src="~/assets/Frameprokes-2.png"
-            alt=""
-          />
-        </div>
-        <div class="bg-white rounded-2xl p-2 md:p-4">
-          <img
-            class="block mx-auto w-8"
-            src="~/assets/Frameprokes-3.png"
-            alt=""
-          />
-        </div>
+      <div>
+        <img
+          src="~assets/berdua.webp"
+          class="block mx-auto rounded-full mb-4 w-32 aspect-square lg:w-72"
+          alt=""
+        />
+        <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
+        <h1
+          class="
+            my-2
+            hand-lettering
+            text-5xl
+            lg:text-7xl
+            text-accent-100
+            leading-10
+          "
+        >
+          Prien
+          <span class="block sm:inline hand-lettering leading-none">&</span>
+          Juanda
+        </h1>
+        <p class="text-lg lg:text-xl font-medium text-accent-100">05.03.2022</p>
+        <button
+          class="
+            block
+            mx-auto
+            text-sm text-white
+            px-4
+            py-1
+            my-2
+            sm:px-6 sm:py-2 sm:my-4 sm:text-base
+            shadow-md
+            rounded-full
+            font-medium
+            bg-[#884936]
+            hover:bg-[#945b4a]
+          "
+          @click="close"
+        >
+          Buka Undangan
+        </button>
       </div>
-      <p class="text-gray-500 italic text-xs mt-2">
-        Tetap mentaati protokol kesehatan
-      </p>
+
+      <div v-if="$route.query.kepada !== undefined" class="space-y-3">
+        <p class="text-base">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+        <p class="font-semibold text-lg text-[#945b4a]">
+          {{ $route.query.kepada }}
+        </p>
+      </div>
+
+      <div id="prokes">
+        <div class="grid grid-cols-4 gap-1">
+          <div class="bg-white rounded-2xl p-2 md:p-4">
+            <img
+              class="block mx-auto w-8"
+              src="~/assets/Frameprokes.png"
+              alt=""
+            />
+          </div>
+          <div class="bg-white rounded-2xl p-2 md:p-4">
+            <img
+              class="block mx-auto w-8"
+              src="~/assets/Frameprokes-1.png"
+              alt=""
+            />
+          </div>
+          <div class="bg-white rounded-2xl p-2 md:p-4">
+            <img
+              class="block mx-auto w-8"
+              src="~/assets/Frameprokes-2.png"
+              alt=""
+            />
+          </div>
+          <div class="bg-white rounded-2xl p-2 md:p-4">
+            <img
+              class="block mx-auto w-8"
+              src="~/assets/Frameprokes-3.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <p class="text-gray-500 italic text-xs mt-2">
+          Tetap mentaati protokol kesehatan
+        </p>
+      </div>
     </div>
   </section>
 </template>
@@ -106,6 +121,9 @@ export default Vue.extend({
       // same as notificationSound: notificationSound,
       notificationSound,
     }
+  },
+  created() {
+    console.log(this.$route.query.kepada)
   },
   methods: {
     close() {
