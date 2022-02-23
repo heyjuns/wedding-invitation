@@ -23,7 +23,7 @@
     >
       <img
         src="~assets/berdua.webp"
-        class="block mx-auto rounded-full mb-4 w-40 aspect-square lg:w-72"
+        class="block mx-auto rounded-full mb-4 w-32 aspect-square lg:w-72"
         alt=""
       />
       <p class="text-sm lg:text-lg text-accent-200">Undangan Pernikahan</p>
@@ -46,13 +46,12 @@
         class="
           block
           mx-auto
-          px-6
-          py-2
-          my-4
+          text-sm text-white
+          px-4 py-1 my-2
+          sm:px-6 sm:py-2 sm:my-4 sm:text-base
           shadow-md
           rounded-full
           font-medium
-          text-base text-white
           bg-[#884936]
           hover:bg-[#945b4a]
         "
