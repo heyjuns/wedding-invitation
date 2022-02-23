@@ -44,18 +44,15 @@
       <p class="text-lg lg:text-xl font-medium text-accent-100">05.03.2022</p>
       <button
         class="
-          mx-auto
           block
+          mx-auto
+          px-6
           py-2
-          px-5
-          mt-4
-          mb-6
-          font-medium
+          my-4
           shadow-md
-          text-white
           rounded-full
-          text-base
-          lg:text-xl
+          font-medium
+          text-base text-white
           bg-[#884936]
           hover:bg-[#945b4a]
         "
@@ -113,13 +110,13 @@ export default Vue.extend({
   },
   methods: {
     close() {
-      this.playNotification();
+      this.playNotification()
       this.$emit('close')
     },
     playNotification() {
       const audio = new Audio(this.notificationSound)
       audio.volume = 0.05
-      audio.preload = 'auto';
+      audio.preload = 'auto'
 
       audio.play()
     },

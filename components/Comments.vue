@@ -52,17 +52,12 @@
             block
             mx-auto
             px-6
-            py-1
-            border
-            shadow-md
+            py-2
             rounded-full
-            border-[#BF7E62]
-            bg-[#BF7E62]
-            hover:bg-transparent
             font-medium
-            hover:font-semibold
             text-base text-white
-            hover:text-[#BF7E62]
+            bg-[#BF7E62]
+            hover:bg-[#c58b72] hover:border-[#c58b72]
           "
           type="button"
           @click="postComments"
@@ -143,7 +138,7 @@ export default Vue.extend({
         'https://bejuju.herokuapp.com/api/master/comment',
         body
       )
-      const response = await request.data;
+      const response = await request.data
 
       if (response.status === true) {
         this.getComments()

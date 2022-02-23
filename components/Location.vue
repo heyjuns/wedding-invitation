@@ -13,12 +13,14 @@
       "
     >
       <div class="max-w-[768px] mx-auto space-y-4">
-        <div class="text-center text-2xl md:text-4xl hand-lettering">Bismillahirrahmanirrahim</div>
+        <div class="text-center text-2xl md:text-4xl hand-lettering">
+          Bismillahirrahmanirrahim
+        </div>
         <section>
           <div class="">
             <p class="text-white text-sm md:text-lg text-center">
-               <br> Assalamualaikum Warahmatullahi
-              Wabarakatuh
+              <br />
+              Assalamualaikum Warahmatullahi Wabarakatuh
               <br />
               Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
               menyelenggarakan resepsi pernikahan Putra-putri kami yang Insya
@@ -150,14 +152,14 @@
                 block
                 mx-auto
                 px-6
-                py-1
-                border
-                shadow-md
+                py-2
                 rounded-full
-                font-medium
-                text-base text-background-tint
-                border-background-tint
-                hover:shadow-xl
+                text-base
+                bg-white
+                hover:bg-gray-100
+                text-[#BF7E62]
+                font-semibold
+                shadow-md
               "
             >
               <a
@@ -168,7 +170,7 @@
               >
                 <p class="">
                   <svg
-                    class="inline w-4 mr-1 text-background-tint"
+                    class="inline w-4 mr-1 text-[#BF7E62]"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
