@@ -15,7 +15,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: 'og:type', content: 'website' },
+      { property: 'og:type', content: 'article' },
       { property: 'og:title', content: 'Wedding Invitation Prien & Juanda' },
       { property: 'og:site_name', content },
       { property: 'og:description', content: 'You are invited to our Wedding. Click link to see the details' },
