@@ -22,6 +22,7 @@ export default {
   methods: {
     playNotification() {
       const audio = new Audio(this.notificationSound)
+      audio.volume = 0.5;
       audio.play()
     },
   },
