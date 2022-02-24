@@ -89,9 +89,14 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+      name: 'Wedding Invitation Prien & Juanda',
+      short_name: 'Wedding Invitation'
     },
     icon: {
-      purpose: 'maskable'
+      purpose: 'any'
+    },
+    meta: {
+      theme_color:'#ffff'
     }
   },
 
