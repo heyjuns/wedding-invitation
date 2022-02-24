@@ -1,3 +1,11 @@
+const content = `
+Assalamu'alaikum Wr. Wb
+Bismillahirahmanirrahim.
+
+Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri acara pernikahan kami.
+
+Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir serta memberikan doa restu dan tetap menjalankan Protokol Kesehatan.
+`;
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -5,13 +13,14 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Undangan Pernikahan Prien Novita Ayu Cahyaningrum & Juanda Leonardo' },
+      { hid: 'description', name: 'description', content },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:image', name: 'og:image', content: 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp' },
-      { hid: 'og:title', name: 'og:title',property: 'og:title', content: 'Wedding Invitation Prien & Juanda' },
-      { hid: 'og:site_name', name: 'og:site_name',property: 'og:site_name', content: 'Wedding Invitation Prien & Juanda' },
-      { hid: 'og:description', name: 'og:description',property: 'og:description', content: 'You are invited to our Wedding. Click link to see the details' },
+      { hid: 'og:image:secure_url', name: 'og:image:secure_url', content: 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp' },
+      { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Wedding Invitation Prien & Juanda' },
+      { hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: 'Wedding Invitation Prien & Juanda' },
+      { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'You are invited to our Wedding. Click link to see the details' },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   },
