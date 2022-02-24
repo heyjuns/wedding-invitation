@@ -8,6 +8,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Undangan Pernikahan Prien Novita Ayu Cahyaningrum & Juanda Leonardo' },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:image', name: 'og:image', content: 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp' },
       { hid: 'og:title', name: 'og:title',property: 'og:title', content: 'Wedding Invitation Prien & Juanda' },
       { hid: 'og:site_name', name: 'og:site_name',property: 'og:site_name', content: 'Wedding Invitation Prien & Juanda' },
       { hid: 'og:description', name: 'og:description',property: 'og:description', content: 'You are invited to our Wedding. Click link to see the details' },

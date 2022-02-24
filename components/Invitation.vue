@@ -84,7 +84,7 @@
           </div>
         </div>
 
-        <countdown endtime="Mar 5, 2022 09:00:00" />
+        <countdown endtime="Mar 5, 2022 08:00:00" />
         <div class="mb-8">
           <button
             class="
