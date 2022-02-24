@@ -20,6 +20,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'og:type', property: 'og:type', content: 'article' },
+      { hid: 'og:url', property: 'og:url', content: 'https://www.prienjuanda.site/' },
       { hid: 'og:title', property: 'og:title', content: title },
       { hid: 'og:site_name', property: 'og:site_name', content: title },
       { hid: 'og:description', property: 'og:description', content: description },
@@ -98,7 +99,7 @@ export default {
       purpose: 'any'
     },
     meta: {
-      theme_color:'#ffff'
+      theme_color: '#ffff'
     }
   },
 
