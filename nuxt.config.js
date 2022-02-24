@@ -9,7 +9,7 @@
 
 const title = 'Wedding Invitation Prien & Juanda';
 const description = 'You are invited to our Wedding. Click link to see the details';
-const image = 'https://www.prienjuanda.site/_nuxt/img/highlight.1b02ec0.JPG';
+const image = 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp';
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -24,6 +24,8 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: title },
       { hid: 'og:description', property: 'og:description', content: description },
       { hid: 'og:image', property: 'og:image', content: image },
+      { hid: 'og:image:width', property: 'og:image:width', content: '512' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '512' },
       { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: image },
       { hid: 'apple-mobile-web-app-title', property: 'apple-mobile-web-app-title', content: title }
     ],
