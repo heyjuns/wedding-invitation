@@ -9,7 +9,7 @@
 
 const title = 'Wedding Invitation Prien & Juanda';
 const description = 'You are invited to our Wedding. Click link to see the details';
-const image = 'http://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
+const image = 'https://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
