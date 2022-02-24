@@ -66,10 +66,10 @@
         </button>
       </div>
 
-      <div v-if="$route.query.kepada !== undefined" class="space-y-3">
+      <div v-if="$route.query.to !== undefined" class="space-y-3">
         <p class="text-base">Kepada Yth. Bapak/Ibu/Saudara/i</p>
         <p class="font-semibold text-lg text-[#945b4a]">
-          {{ $route.query.kepada }}
+          {{ $route.query.to }}
         </p>
       </div>
 
@@ -124,7 +124,7 @@ export default Vue.extend({
     }
   },
   created() {
-    console.log(this.$route.query.kepada)
+    console.log(this.$route.query.to)
   },
   methods: {
     close() {
