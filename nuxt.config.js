@@ -1,12 +1,16 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Undangan Pernikahan',
+    title: 'Wedding Invitation Prien & Juanda',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Undangan Pernikahan Prien Novita Ayu Cahyaningrum & Juanda Leonardo' },
       { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'Wedding Invitation Prien & Juanda' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Wedding Invitation Prien & Juanda' },
+      { hid: 'og:description', name: 'og:description', content: 'You are invited to our Wedding. Click link to see the details' },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   },
