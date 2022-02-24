@@ -25,7 +25,7 @@
     >
       <div>
         <img
-          src="~assets/berdua.webp"
+          src="~assets/highlight.webp"
           class="block mx-auto rounded-full mb-4 w-36 aspect-square lg:w-72"
           alt=""
         />
