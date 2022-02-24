@@ -1,11 +1,15 @@
-const content = `
-Assalamu'alaikum Wr. Wb
-Bismillahirahmanirrahim.
+// const content = `
+// Assalamu'alaikum Wr. Wb
+// Bismillahirahmanirrahim.
 
-Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri acara pernikahan kami.
+// Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri acara pernikahan kami.
 
-Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir serta memberikan doa restu dan tetap menjalankan Protokol Kesehatan.
-`;
+// Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir serta memberikan doa restu dan tetap menjalankan Protokol Kesehatan.
+// `;
+
+const title = 'Wedding Invitation Prien & Juanda';
+const description = 'You are invited to our Wedding. Click link to see the details';
+const image = 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp';
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -13,14 +17,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content },
+      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: 'og:type', content: 'article' },
-      { property: 'og:title', content: 'Wedding Invitation Prien & Juanda' },
-      { property: 'og:site_name', content },
-      { property: 'og:description', content: 'You are invited to our Wedding. Click link to see the details' },
-      { property: 'og:image', content: 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp' },
-      { property: 'og:image:secure_url', content: 'https://www.prienjuanda.site/_nuxt/img/berdua.b6e7145.webp' },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      { hid: 'og:title', property: 'og:title', content: title },
+      { hid: 'og:site_name', property: 'og:site_name', content: title },
+      { hid: 'og:description', property: 'og:description', content: description },
+      { hid: 'og:image', property: 'og:image', content: image },
+      { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: image },
+      { hid: 'apple-mobile-web-app-title', property: 'apple-mobile-web-app-title', content: title }
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   },
