@@ -6,7 +6,7 @@
 
 // Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir serta memberikan doa restu dan tetap menjalankan Protokol Kesehatan.
 // `;
-
+import redirectSSL from 'redirect-ssl';
 const title = 'Wedding Invitation Prien & Juanda';
 const description = 'You are invited to our Wedding. Click the link to see the details';
 const sImage = 'https://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
@@ -132,4 +132,11 @@ export default {
       maxAge: 60 * 60 * 24 * 365 * 1000,
     },
   },
+
+  serverMiddleware: [
+    // Will register redirect-ssl npm package
+    redirectSSL.create({
+      enabled: process.env.NODE_ENV === 'production'
+    }),
+  ]
 }
