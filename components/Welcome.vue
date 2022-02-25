@@ -137,6 +137,7 @@ export default Vue.extend({
       audio.preload = 'auto'
 
       audio.play()
+      audio.volume = 0.1
     },
   },
 })
