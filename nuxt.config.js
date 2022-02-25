@@ -8,8 +8,9 @@
 // `;
 
 const title = 'Wedding Invitation Prien & Juanda';
-const description = 'You are invited to our Wedding. Click link to see the details';
-const image = 'https://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
+const description = 'You are invited to our Wedding. Click the link to see the details';
+const sImage = 'https://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
+const image = 'http://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -17,18 +18,20 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: description },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:url', property: 'og:url', content: 'https://www.prienjuanda.site/' },
       { hid: 'og:title', property: 'og:title', content: title },
-      { hid: 'og:site_name', property: 'og:site_name', content: title },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Wedding Invitation' },
       { hid: 'og:description', property: 'og:description', content: description },
+      { hid: 'apple-mobile-web-app-title', property: 'apple-mobile-web-app-title', content: title },
+
       { hid: 'og:image', property: 'og:image', content: image },
+      { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: sImage },
+      { hid: 'og:image:type', property: 'og:image:type', content: 'image/webp' },
       { hid: 'og:image:width', property: 'og:image:width', content: '1448' },
       { hid: 'og:image:height', property: 'og:image:height', content: '1448' },
-      { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: image },
-      { hid: 'apple-mobile-web-app-title', property: 'apple-mobile-web-app-title', content: title }
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   },
