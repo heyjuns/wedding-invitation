@@ -9,8 +9,8 @@
 import redirectSSL from 'redirect-ssl';
 const title = 'Wedding Invitation Prien & Juanda';
 const description = 'You are invited to our Wedding. Click the link to see the details';
-const sImage = 'https://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
-const image = 'http://www.prienjuanda.site/_nuxt/img/IMG_0002.3a59d89.webp';
+const sImage = 'https://i.ibb.co/TTqHcRz/preview1.jpg';
+const image = 'https://i.ibb.co/TTqHcRz/preview1.jpg';
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -29,7 +29,7 @@ export default {
 
       { hid: 'og:image', property: 'og:image', content: image },
       { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: sImage },
-      { hid: 'og:image:type', property: 'og:image:type', content: 'image/webp' },
+      { hid: 'og:image:type', property: 'og:image:type', content: 'image/jpg' },
       { hid: 'og:image:width', property: 'og:image:width', content: '1448' },
       { hid: 'og:image:height', property: 'og:image:height', content: '1448' },
     ],
