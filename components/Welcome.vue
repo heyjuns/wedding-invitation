@@ -133,7 +133,7 @@ export default Vue.extend({
     },
     playNotification() {
       const audio = new Audio(this.notificationSound)
-      audio.volume = 0.05
+      audio.volume = 0.1
       audio.preload = 'auto'
 
       audio.play()
