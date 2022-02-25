@@ -6,6 +6,7 @@
         bg-background-tint
         w-full
         bg-[url('~assets/taneman-4.svg')] bg-position-pray-side-by-side
+         rounded-b-2xl
       "
     >
       <div class="">
@@ -125,9 +126,8 @@
             </div>
           </section>
         </section>
-
-        <Comments />
         <gallery />
+        <Comments />
 
 
       </div>

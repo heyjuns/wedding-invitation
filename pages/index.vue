@@ -13,7 +13,6 @@
         <Invitation />
         <Location />
         <Pray />
-        <Gift />
       </div>
       <Footer />
     </div>

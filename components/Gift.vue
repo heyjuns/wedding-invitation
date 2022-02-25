@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex m-auto py-4 px-8 text-white w-full bg-[#BF7E62] rounded-b-2xl"
+    class="flex m-auto  text-white w-full"
   >
     <div class="mx-auto space-y-4 w-[768px]">
       <div class="mx-auto text-center">

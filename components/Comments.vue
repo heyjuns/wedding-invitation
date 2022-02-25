@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto text-center w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12">
+  <div class="mx-auto mb-6 text-center w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12">
     <section class="mb-10">
       <h1 class="mt-8 mb-4 text-4xl hand-lettering text-accent-300">
         Kirimkan Doa & Ucapan Untuk Kedua Mempelai

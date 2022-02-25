@@ -185,6 +185,9 @@
             </button>
           </div>
         </section>
+
+        <Gift />
+
       </div>
     </div>
   </div>
