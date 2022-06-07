@@ -6,7 +6,7 @@
 
 // Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir serta memberikan doa restu dan tetap menjalankan Protokol Kesehatan.
 // `;
-import redirectSSL from 'redirect-ssl';
+// import redirectSSL from 'redirect-ssl';
 const title = 'Wedding Invitation Prien & Juanda';
 const description = 'You are invited to our Wedding. Click the link to see the details';
 const sImage = 'https://i.ibb.co/TTqHcRz/preview1.jpg';
