@@ -133,10 +133,10 @@ export default {
     },
   },
 
-  serverMiddleware: [
-    // Will register redirect-ssl npm package
-    redirectSSL.create({
-      enabled: process.env.NODE_ENV === 'production'
-    }),
-  ]
+  // serverMiddleware: [
+  //   // Will register redirect-ssl npm package
+  //   redirectSSL.create({
+  //     enabled: process.env.NODE_ENV === 'production'
+  //   }),
+  // ]
 }
